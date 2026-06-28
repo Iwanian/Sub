@@ -108,3 +108,5 @@ https://t.me/proxy?server=nick.talebi.co.uk&port=443&secret=ee1603010200010001fc
 https://t.me/proxy?server=thiscyou.net.now_sudo.rm.again_to_fight.everyone.i_am.the_internet.romatism.sbs.lightdash.icu.&port=443&secret=7pOFJ5zH96GUBMnIb8sRUUViaXNjb3R0aS55ZWt0YW5ldC5jb20=
 https://t.me/proxy?server=65.109.106.132&port=443&secret=3XnnAQIAAQAH8AMDhuJMOt0
 https://t.me/proxy?server=sv.hajhossein.observer&port=443&secret=ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d
+https://t.me/proxy?server=ad2.arixo.shop&port=443&secret=eed09b88cbbd4e744865b890e5a0bd26876164322e617269786f2e73686f70
+tg://proxy?server=proxy14.chunkycorp.shop&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
