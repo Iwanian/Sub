@@ -17,3 +17,4 @@ vless://481969d4-60bc-48ab-9e34-82e6922a4aaa@dl.google.ssl-5.aiteamplus.ir:2083?
 vless://1c0abb34-4313-4acb-993d-62bf52eace71@fbi.gov:443?path=%2F&security=tls&encryption=none&insecure=0&host=c.downloadphysics.ir&fp=chrome&type=ws&allowInsecure=0&sni=c.downloadphysics.ir#%40v2raybaaz%20%C2%B2🇦🇪
 
 vless://976b6fe3-27fb-48d0-9262-bbe963099919@www.speedtest.net:2086?path=%2F%3Fed%3D2560&security=none&encryption=mlkem768x25519plus.native.0rtt.ExFcRhIiPqlYiOBGWFR2SwKsnz25k7ilHc4xgTROnic&host=www.parsiclouds.ir&type=httpupgrade#%40v2raybaaz%20%C2%B3🇦🇪
+vmess://eyJhZGQiOiJ0cjUuaHlwZXJraW5naHBvLm9ubGluZSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoicGxheS5nb29nbGUuY29tIiwiaWQiOiI3NWY0YTgzOS02NzJjLTQxNzgtOWQ2Yy1iMjgyYWE4ZTdiYzIiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsInBjcyI6IiIsInBvcnQiOiI0NDMiLCJwcyI6IlRS8J+HufCfh7ctQVJST1dBMy0xNTAuMDBHQvCfk4oiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Imh0dHAiLCJ2IjoiMiIsInZjbiI6IiJ9🇹🇷
