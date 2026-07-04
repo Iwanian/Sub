@@ -164,3 +164,4 @@ https://t.me/proxy?server=sd.ir.meli-n13.info&port=8443&secret=104462821249bd7ac
 https://t.me/proxy?server=uaj.ir.meli-n13.info&port=8443&secret=104462821249bd7ac519130220c25d09
 https://t.me/proxy?server=198.244.141.198&port=443&secret=dd79e344818749bd7ac519130220c25d09
 https://t.me/proxy?server=135.181.74.189&port=443&secret=3XnnAQIAAQAH8AMDhuJMOt0
+https://t.me/proxy?server=65.21.65.206&port=443&secret=ee1603010200010001fc030386e24c3add646565707365656B2E636F6D
