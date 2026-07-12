@@ -171,7 +171,7 @@ https://t.me/proxy?server=hadaf.golgoli2.co.uk&port=2053&secret=eeNEgYdJvXrFGRMC
 https://t.me/proxy?server=kala.golgoli1.co.uk&port=443&secret=ee1603010200010001fc030386e24c3add7777772e7961686f6f2e636f6d
 https://t.me/proxy?server=mashtibash.vafadari.co.uk&port=2096&secret=eeNEgYdJvXrFGRMCIMJdCQ
 https://t.me/proxy?server=Best.Ping.ir.hdhdhfdrde.info.&port=88&secret=ee0000f00f0f775555fffffff5006e2e69626973636f7474692e79656b74616e65742e636f6d
-https://t.me/proxy?server=persian.gulf.ir.olsjddhf.info.&port=88&secret=ee0000f00f0f775555fffffff5006e2e69626973636f7474692e79656b74616e65742e636f6d
 https://t.me/proxy?server=should.be.wake.up.ir.yfdhjderkig.info.&port=88&secret=ee0000f00f0f775555fffffff5006e2e69626973636f7474692e79656b74616e65742e636f6d
 https://t.me/proxy?server=ethereal5.arixo.shop&port=443&secret=ee60e9cad19900bfefdbd122d82dfcd3d9657468657265616c352e617269786f2e73686f70
 tg://proxy?server=proxy13.chunkycorp.shop&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+https://t.me/proxy?server=new.vafadari.co.uk&port=2053&secret=eeNEgYdJvXrFGRMCIMJdCQ
