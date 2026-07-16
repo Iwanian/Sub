@@ -38,3 +38,6 @@ trojan://MiTiVPN@199.232.78.140:443?path=%2F---%40MiTiVPN%2F---%40MiTiVPN%2F---%
 trojan://MITIVPN@151.101.56.7:443?path=%2F---%40MiTiVPN%2F---%40MiTiVPN%2F---%40MiTiVPN%2F---%40MiTiVPN%2F---%40MiTiVPN%3DDD-E&security=tls&alpn=h2%2Chttp%2F1.1&insecure=1&host=mitivpn--mitivpn------mitivpn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=1&sni=ssl.fastly.com#sil3nt_network%20%F0%9F%92%98
 trojan://MiTiVPN@199.232.22.39:443?path=%2F---%40MiTiVPN%2F---%40MiTiVPN%2F---%40MiTiVPN%2F---%40MiTiVPN%2F---%40MiTiVPN%3Dfl-La&security=tls&alpn=h2%2Chttp%2F1.1&insecure=1&host=mitivpn--mitivpn---mitivpn---mitivpn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=1&sni=default.ssl.fastly.com#sil3nt_network%20%F0%9F%92%98
 trojan://MiTiVPN@151.101.1.194:443?path=%2F---%40MiTiVPN%2F---%40MiTiVPN%2F---%40MiTiVPN%2F---%40MiTiVPN%2F---%40MiTiVPN%3Ds---W&security=tls&alpn=h2%2Chttp%2F1.1&insecure=1&host=mitivpn--mitivpn--mitivpn-mitivpn--mitivpn-mitivpn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=1&sni=ssl.fastly.com#sil3nt_network%20%F0%9F%92%98🇩🇪
+vless://eeb6823c-b926-4ea2-866a-5542edd26e59@162.159.38.119:443?path=%2F&security=tls&encryption=none&insecure=0&host=t1s1.rittbo.kdns.fr&fp=chrome&type=ws&allowInsecure=0&sni=t1s1.rittbo.kdns.fr#https%3A%2F%2Ftelegram.me%2FGGVPNHOP
+
+لوکیشن آمریکا 🇺🇸
