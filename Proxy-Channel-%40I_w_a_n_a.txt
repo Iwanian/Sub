@@ -177,3 +177,4 @@ tg://proxy?server=zilch.chunkycorp.shop&port=443&secret=ee6a0333c1db3f8eaba5c767
 https://t.me/proxy?server=b14ca112.koshkaproxy.shop&port=443&secret=ee1e355000114cdb95628c1564225a404b36326334346231662e6b6f73686b6170726f78792e73686f70
 https://t.me/proxy?server=s3.postpulse.space&port=443&secret=eede09f27f5ed0877907c31d53a7aca5526164332e617269786f2e73686f70
 tg://proxy?server=66.33.22.222&port=17879&secret=260101489903a98ba63be1692dd3a9fa
+tg://proxy?server=66.33.22.220&port=11752&secret=260101489903a98ba63be1692dd3a9fa
