@@ -178,3 +178,4 @@ https://t.me/proxy?server=b14ca112.koshkaproxy.shop&port=443&secret=ee1e35500011
 https://t.me/proxy?server=s3.postpulse.space&port=443&secret=eede09f27f5ed0877907c31d53a7aca5526164332e617269786f2e73686f70
 tg://proxy?server=66.33.22.222&port=17879&secret=260101489903a98ba63be1692dd3a9fa
 tg://proxy?server=66.33.22.220&port=11752&secret=260101489903a98ba63be1692dd3a9fa
+https://t.me/proxy?server=messi2.nisti.co.uk&port=8880&secret=eeNEgYdJvXrFGRMCIMJdCQ
