@@ -66,3 +66,6 @@ https://t.me/proxy?server=116.203.55.20&port=443&secret=YyEEgYdJXfrFmgMCIMJdjjRu
 https://t.me/proxy?server=world-mordak.maraton-co.info.&port=443&secret=ee1603010200010001fc030386e24c3add6d656469612e737465616d706f77657265642e636f6d ⭐
 https://t.me/proxy?server=www.33-74www.ir.&port=8443&secret=7hBEBIGHSV36xZoDAiDCXLN3d3cueWFob28uY29t ⭐
 https://t.me/proxy?server=soheil.goooalir.co.uk&port=8443&secret=dd104462821249bd7ac519130220c25d09
+https://t.me/proxy?server=t.meow-network.com&port=443&secret=ee5622e11fff3e49bcc85280197a6106b5742e6d656f772d6e6574776f726b2e636f6d ru
+https://t.me/proxy?server=116.203.55.20&port=443&secret=YyEEgYdJXfrFmgMCIMJdjjRueWVrdGFuZXQ ru
+tg://proxy?server=skein.chunkycorp.shop&port=8443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275 ru
