@@ -1,0 +1,68 @@
+name: Test extracted configs and push
+
+# Triggered by the bot via a `repository_dispatch` call (POST
+# /repos/{owner}/{repo}/dispatches with event_type "test-configs") right
+# after an admin runs extract-sub. See triggerConfigTestBatch() in
+# worker.js.
+on:
+  repository_dispatch:
+    types: [test-configs]
+
+permissions:
+  contents: write
+
+concurrency:
+  # Batches are processed one at a time — running two of these
+  # concurrently would race on the same config pool file.
+  group: test-configs
+  cancel-in-progress: false
+
+jobs:
+  test-and-push:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Download xray-core
+        run: |
+          set -euo pipefail
+          mkdir -p xray-bin
+          ASSET_URL=$(curl -fsSL https://api.github.com/repos/XTLS/Xray-core/releases/latest \
+            | node -e "let d='';process.stdin.on('data',c=>d+=c);process.stdin.on('end',()=>{const j=JSON.parse(d);const a=j.assets.find(x=>x.name==='Xray-linux-64.zip');if(!a){console.error('asset not found');process.exit(1);}console.log(a.browser_download_url);})")
+          curl -fsSL "$ASSET_URL" -o xray.zip
+          unzip -q xray.zip -d xray-bin
+          chmod +x xray-bin/xray
+          ./xray-bin/xray version
+
+      - name: Run config test + push
+        env:
+          BATCH_FILE: ${{ github.event.client_payload.batch_file }}
+          CONFIG_PATH: ${{ github.event.client_payload.config_path }}
+          ADMIN_CHAT_ID: ${{ github.event.client_payload.admin_chat_id }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          WORKER_BASE_URL: ${{ secrets.WORKER_BASE_URL }}
+          WORKER_INTERNAL_SECRET: ${{ secrets.WORKER_INTERNAL_SECRET }}
+          XRAY_BIN: ${{ github.workspace }}/xray-bin/xray
+        run: node scripts/test-and-push-configs.mjs
+
+      - name: Commit and push
+        run: |
+          set -euo pipefail
+          git config user.name "iwana-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+          else
+            git commit -m "extract-sub: test + push config batch [skip ci]"
+            git push
+          fi
