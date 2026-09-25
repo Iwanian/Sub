@@ -67,8 +67,11 @@ function escapeHtml(s) {
 }
 
 // Runs one config through a real xray-core process and attempts to
-// download up to TEST_MAX_BYTES through it. Returns { bytes, ok, error }.
-// Never throws — every failure mode is caught and reported as ok:false.
+// download up to TEST_MAX_BYTES through it. Returns
+// { bytes, ok, error, debug } — debug carries xray's own log tail plus
+// curl's exit code/stderr/http-code so a 0-byte result is diagnosable
+// instead of just "it didn't work". Never throws — every failure mode is
+// caught and reported as ok:false.
 async function testOneConfig(cfg, socksPort) {
   if (cfg.protocol === 'hysteria2') {
     return { bytes: 0, ok: false, error: 'hysteria2_not_supported_by_xray_core' };
@@ -84,13 +87,20 @@ async function testOneConfig(cfg, socksPort) {
   const configFile = `/tmp/xray-cfg-${socksPort}.json`;
   await writeFile(configFile, JSON.stringify(xrayConfigJson));
 
-  const xray = spawn(XRAY_BIN, ['run', '-c', configFile], { stdio: 'ignore' });
+  const xray = spawn(XRAY_BIN, ['run', '-c', configFile]);
   let xrayExited = false;
-  xray.on('exit', () => { xrayExited = true; });
+  let xrayExitInfo = '';
+  let xrayLog = '';
+  const captureXray = (d) => { xrayLog = (xrayLog + d.toString()).slice(-1500); };
+  xray.stdout.on('data', captureXray);
+  xray.stderr.on('data', captureXray);
+  xray.on('exit', (code, signal) => { xrayExited = true; xrayExitInfo = `code=${code} signal=${signal}`; });
 
   try {
     await new Promise((resolve) => setTimeout(resolve, XRAY_STARTUP_MS));
-    if (xrayExited) return { bytes: 0, ok: false, error: 'xray_exited_immediately' };
+    if (xrayExited) {
+      return { bytes: 0, ok: false, error: `xray_exited_immediately (${xrayExitInfo})`, debug: { xrayLog } };
+    }
 
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), TEST_TIMEOUT_MS);
@@ -98,31 +108,39 @@ async function testOneConfig(cfg, socksPort) {
       // Node's built-in fetch doesn't support a SOCKS proxy directly, so
       // we shell out to curl (present on all GitHub-hosted Ubuntu runners)
       // instead of pulling in a proxy-agent dependency for this.
-      const bytes = await new Promise((resolve, reject) => {
+      const { bytes, httpCode, curlExitCode, curlErr } = await new Promise((resolve, reject) => {
         const curl = spawn('curl', [
           '-x', `socks5h://127.0.0.1:${socksPort}`,
           '-m', String(Math.ceil(TEST_TIMEOUT_MS / 1000)),
           '--max-filesize', String(TEST_MAX_BYTES),
           '-o', '/dev/null',
-          '-s',
-          '-w', '%{size_download}',
+          '-s', '-S',
+          '-w', '%{http_code} %{size_download}',
           TEST_DOWNLOAD_URL,
         ]);
         let out = '';
+        let err = '';
         curl.stdout.on('data', (d) => { out += d.toString(); });
+        curl.stderr.on('data', (d) => { err += d.toString(); });
         curl.on('error', reject);
         curl.on('exit', (code) => {
-          const n = parseInt(out.trim(), 10);
-          resolve(Number.isFinite(n) ? n : 0);
+          const [httpCodeStr, bytesStr] = out.trim().split(/\s+/);
+          const n = parseInt(bytesStr, 10);
+          resolve({
+            bytes: Number.isFinite(n) ? n : 0,
+            httpCode: httpCodeStr || '',
+            curlExitCode: code,
+            curlErr: err.trim().slice(0, 300),
+          });
         });
       });
       clearTimeout(timer);
-      return { bytes, ok: bytes > 0 };
+      return { bytes, ok: bytes > 0, debug: { xrayLog, httpCode, curlExitCode, curlErr } };
     } finally {
       clearTimeout(timer);
     }
   } catch (e) {
-    return { bytes: 0, ok: false, error: String(e?.message || e) };
+    return { bytes: 0, ok: false, error: String(e?.message || e), debug: { xrayLog } };
   } finally {
     try { xray.kill('SIGKILL'); } catch {}
     await rm(configFile, { force: true }).catch(() => {});
@@ -238,6 +256,22 @@ async function main() {
     `🔌 تست واقعی از طریق xray-core: روی ${gotData} از ${testable.length} کانفیگ دیتا واقعی دانلود شد — مجموعاً ${(totalBytes / 1024).toFixed(0)}KB.`,
   ];
   if (parseFailed) lines.push(`⚠️ ${parseFailed} خط قابل پارس نبود (بدون تغییر، همون‌طوری که بود اضافه شد).`);
+
+  // Show why, not just that it failed — the first failed test's debug
+  // info (xray's own log tail, curl's exit code/http-code/stderr), so a
+  // 0-byte result is actually actionable instead of a dead end.
+  if (testable.length && gotData < testable.length) {
+    const failedSample = testable.find((p) => !p.testResult?.ok);
+    const d = failedSample?.testResult?.debug || {};
+    const err = failedSample?.testResult?.error;
+    lines.push('');
+    lines.push(`🩺 دیباگ (نمونه‌ی اول ناموفق — ${failedSample?.cfg?.server}:${failedSample?.cfg?.port}):`);
+    if (err) lines.push(`error: <code>${escapeHtml(err)}</code>`);
+    if (d.httpCode !== undefined) lines.push(`curl http_code: <code>${escapeHtml(String(d.httpCode))}</code>, exit: <code>${escapeHtml(String(d.curlExitCode))}</code>`);
+    if (d.curlErr) lines.push(`curl stderr: <code>${escapeHtml(d.curlErr)}</code>`);
+    if (d.xrayLog) lines.push(`xray log (آخرین بخش): <code>${escapeHtml(d.xrayLog.slice(-600))}</code>`);
+  }
+
   if (newLines.length && WORKER_BASE_URL && !recordedForExpiry) {
     lines.push(`⚠️ ثبت این دسته برای پاکسازی خودکار ۲۴ساعته انجام نشد (خطا در تماس با ورکر) — این کانفیگ‌ها دستی باید حذف بشن اگه لازمه.`);
   }
