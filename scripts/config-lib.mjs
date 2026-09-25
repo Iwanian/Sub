@@ -134,6 +134,7 @@ function parseVless(raw) {
     xhttpExtra: p.get('extra') || '',
     xPaddingBytes: p.get('x_padding_bytes') || '',
     pinnedCertSha256: p.get('pcs') || '',
+    spx: p.get('spx') || '',
   };
   if (!cfg.server || !cfg.port || !cfg.uuid) throw new Error('vless_missing_fields');
   return cfg;
@@ -159,6 +160,7 @@ function serializeVless(cfg) {
   if (cfg.extra?.xhttpExtra) p.set('extra', cfg.extra.xhttpExtra);
   if (cfg.extra?.xPaddingBytes) p.set('x_padding_bytes', cfg.extra.xPaddingBytes);
   if (cfg.extra?.pinnedCertSha256) p.set('pcs', cfg.extra.pinnedCertSha256);
+  if (cfg.extra?.spx) p.set('spx', cfg.extra.spx);
   const query = p.toString();
   const remark = encodeURIComponent(cfg.remark || '');
   return `vless://${encodeURIComponent(cfg.uuid)}@${cfg.server}:${cfg.port}${query ? '?' + query : ''}#${remark}`;
@@ -327,7 +329,11 @@ function serializeConfig(protocol, cfg) {
 // same limitation as in the bot; callers must skip it before calling this.
 function buildStreamSettings(cfg) {
   const network = cfg.network || 'tcp';
-  const stream = { network, security: cfg.tls ? 'tls' : 'none' };
+  // security=reality needs its own distinct realitySettings block, NOT
+  // tlsSettings — see the matching comment in worker.js's copy of this
+  // function for why (this was a real bug, found via a live test run).
+  const isReality = cfg.extra?.security === 'reality';
+  const stream = { network, security: isReality ? 'reality' : cfg.tls ? 'tls' : 'none' };
 
   if (network === 'ws') {
     stream.wsSettings = { path: cfg.path || '/', headers: cfg.host ? { Host: cfg.host } : {} };
@@ -345,7 +351,16 @@ function buildStreamSettings(cfg) {
     stream.xhttpSettings = { path: cfg.path || '/', host: cfg.host || cfg.server, mode: cfg.extra?.mode || 'auto', extra };
   }
 
-  if (stream.security === 'tls') {
+  if (stream.security === 'reality') {
+    stream.realitySettings = {
+      show: false,
+      fingerprint: cfg.extra?.fp || 'chrome',
+      serverName: cfg.sni || cfg.host || cfg.server,
+      publicKey: cfg.extra?.pbk || '',
+      shortId: cfg.extra?.sid || '',
+      spiderX: cfg.extra?.spx || '',
+    };
+  } else if (stream.security === 'tls') {
     stream.tlsSettings = { allowInsecure: cfg.extra?.insecure === '1', serverName: cfg.sni || cfg.host || cfg.server, show: false };
     if (cfg.alpn) stream.tlsSettings.alpn = cfg.alpn.split(',').map((s) => s.trim());
     if (cfg.extra?.fp) stream.tlsSettings.fingerprint = cfg.extra.fp;
