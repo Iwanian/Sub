@@ -79,7 +79,7 @@ async function testOneConfig(cfg, socksPort) {
 
   let xrayConfigJson;
   try {
-    xrayConfigJson = toXrayConfigJson(cfg, socksPort);
+    xrayConfigJson = toXrayConfigJson(cfg, socksPort, 'debug');
   } catch (e) {
     return { bytes: 0, ok: false, error: String(e?.message || e) };
   }
@@ -91,7 +91,7 @@ async function testOneConfig(cfg, socksPort) {
   let xrayExited = false;
   let xrayExitInfo = '';
   let xrayLog = '';
-  const captureXray = (d) => { xrayLog = (xrayLog + d.toString()).slice(-1500); };
+  const captureXray = (d) => { xrayLog = (xrayLog + d.toString()).slice(-4000); };
   xray.stdout.on('data', captureXray);
   xray.stderr.on('data', captureXray);
   xray.on('exit', (code, signal) => { xrayExited = true; xrayExitInfo = `code=${code} signal=${signal}`; });
@@ -269,7 +269,7 @@ async function main() {
     if (err) lines.push(`error: <code>${escapeHtml(err)}</code>`);
     if (d.httpCode !== undefined) lines.push(`curl http_code: <code>${escapeHtml(String(d.httpCode))}</code>, exit: <code>${escapeHtml(String(d.curlExitCode))}</code>`);
     if (d.curlErr) lines.push(`curl stderr: <code>${escapeHtml(d.curlErr)}</code>`);
-    if (d.xrayLog) lines.push(`xray log (آخرین بخش): <code>${escapeHtml(d.xrayLog.slice(-600))}</code>`);
+    if (d.xrayLog) lines.push(`xray log (آخرین بخش): <code>${escapeHtml(d.xrayLog.slice(-1800))}</code>`);
   }
 
   if (newLines.length && WORKER_BASE_URL && !recordedForExpiry) {
