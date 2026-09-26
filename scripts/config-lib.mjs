@@ -418,11 +418,14 @@ function buildProxyOutbound(cfg) {
 
 // `socksPort` is parameterized (unlike the bot's fixed-10808 version)
 // because this script runs several of these concurrently, each needing
-// its own local port.
-function toXrayConfigJson(cfg, socksPort) {
+// its own local port. `logLevel` defaults to 'warning' (same as the bot's
+// own export) but the test script passes 'debug' so dial/handshake
+// failures against the actual remote server show up in the captured log
+// instead of being silently swallowed.
+function toXrayConfigJson(cfg, socksPort, logLevel = 'warning') {
   return {
     remarks: cfg.remark || `${cfg.protocol}-${cfg.server}`,
-    log: { loglevel: 'warning' },
+    log: { loglevel: logLevel },
     inbounds: [
       {
         tag: 'socks',
