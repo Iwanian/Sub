@@ -1,0 +1,5 @@
+https://github.com/Iwanian/Sub/blob/main/Iwana.txt - ایوانا - Server
+https://github.com/Iwanian/Sub/blob/main/Send.txt - ارسالی - Server
+https://github.com/Iwanian/Sub/blob/main/MasterDNS.txt - مستر دی ان اس - Server
+https://github.com/Iwanian/Sub/blob/main/Telegram.txt - تلگرامی - Server
+https://github.com/Iwanian/Sub/tree/main/File/ - فایل فیلترشکن های دیگر - File
