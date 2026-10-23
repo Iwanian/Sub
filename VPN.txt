@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/paranoideveloper/CoreForge-Collector4/main/subscription_base64.txt - کورفورج
+https://github.com/paranoideveloper/CoreForge-Collector4/blob/main/subscription_raw.txt - کورفورج
