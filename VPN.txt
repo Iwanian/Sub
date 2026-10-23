@@ -1,4 +1,1 @@
-https://github.com/Iwanian/Sub/blob/main/Iwana.txt - ایوانا - Server
-https://github.com/Iwanian/Sub/blob/main/Send.txt - ارسالی - Server
-https://github.com/Iwanian/Sub/blob/main/MasterDNS.txt - مستر دی ان اس - Server
-https://github.com/Iwanian/Sub/blob/main/Telegram.txt - تلگرامی - Server
+https://raw.githubusercontent.com/paranoideveloper/CoreForge-Collector4/main/subscription_base64.txt - کورفورج
