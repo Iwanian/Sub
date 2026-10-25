@@ -1,1 +1,2 @@
-
+-(هسته x-ray (https://github.com/XTLS/Xray-core))
+-(هسته MasterDNS())
