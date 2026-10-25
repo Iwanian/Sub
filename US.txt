@@ -1,2 +1,9 @@
+به جز خودمون(Iwana?)
 -هسته x-ray (https://github.com/XTLS/Xray-core)
--(هسته MasterDNS())
+-هسته sing-box (https://github.com/SagerNet/sing-box)
+-هسته MasterDNS (https://github.com/masterking32/MasterDnsVPN)
+-هسته CottenDNS (https://github.com/TaJirax/cottenDNS)
+-هسته StormDNS (https://github.com/NullRoute1970/StormDNS)
+-هسته Soar (Lantern) (https://github.com/getlantern/soar)
+-هسته Psiphon (https://github.com/Psiphon-Labs/psiphon-tunnel-core)
+سازنده هر کدام از هسته ها و یا سرور های بالا که از استفاده شدن از زحمات خود در این برنامه راضی نیستند، به دایرکت کانال (Iwana?(https://t.me/I_w_a_n_a)) مراجعه کرده و با اثبات مالکیت خود اعتراض خود را به ما اعلام کنند. باتشکر از این عزیزان و زحماتشان!
