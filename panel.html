@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>پنل کانال‌ها</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#EEF1F6; --surface:#FFFFFF; --ink:#172033; --muted:#5B667A; --line:#D5DBE6;
+  --accent:#3451D1; --accent-ink:#FFFFFF; --ok:#1F7A3A; --bad:#B42323; --new:#E8EDFF;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#12161F; --surface:#1A2030; --ink:#E8ECF4; --muted:#9AA5BA; --line:#2B3347;
+    --accent:#8FA3FF; --accent-ink:#10163A; --ok:#6FD08C; --bad:#FF8A8A; --new:#232B4A;
+    color-scheme:dark;
+  }
+}
+*{box-sizing:border-box}
+html{scroll-padding-bottom:90px}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 15px/1.8 "Vazirmatn",Tahoma,sans-serif}
+main{max-width:720px;margin:0 auto;padding:20px 16px 110px}
+h1{font-size:22px;margin:8px 0 2px}
+.sub{color:var(--muted);margin:0 0 20px}
+section{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:14px}
+h2{font-size:16px;margin:0 0 12px}
+label{display:block;font-size:13px;color:var(--muted);margin-bottom:2px}
+input,textarea{width:100%;font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:8px 10px}
+input[dir=ltr],textarea[dir=ltr]{text-align:left}
+input:focus-visible,textarea:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+textarea{min-height:110px;resize:vertical}
+.grid .full{grid-column:1/-1}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media(max-width:520px){.grid{grid-template-columns:1fr}}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:10px}
+button{font:inherit;cursor:pointer;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:7px 14px}
+button.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:500}
+button:disabled{opacity:.5;cursor:not-allowed}
+.hint{font-size:13px;color:var(--muted);margin:6px 0 0}
+.remember{display:flex;gap:6px;align-items:center;font-size:13px;color:var(--muted)}
+.remember input{width:auto}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}
+.tabs button{flex:1 1 auto;padding:8px 10px}
+.tabs button[aria-selected="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:500}
+.tabs small{opacity:.8;margin-inline-start:4px}
+ul{list-style:none;margin:10px 0 0;padding:0;max-height:360px;overflow:auto;border:1px solid var(--line);border-radius:8px}
+li{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:6px 12px;border-bottom:1px solid var(--line)}
+li:last-child{border-bottom:0}
+li.added{background:var(--new)}
+li span.n{direction:ltr;unicode-bidi:plaintext}
+li .tag{font-size:12px;color:var(--accent);margin-inline-start:8px}
+li button{padding:2px 10px;color:var(--bad)}
+.empty{padding:18px;text-align:center;color:var(--muted)}
+.errs{color:var(--bad);font-size:13px;margin-top:8px;white-space:pre-line}
+.bar{position:fixed;inset:auto 0 0 0;background:var(--surface);border-top:1px solid var(--line);padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px))}
+.bar>div{max-width:720px;margin:0 auto;display:flex;gap:12px;align-items:center;justify-content:space-between}
+#status{font-size:14px;min-height:1.6em}
+#status.ok{color:var(--ok)} #status.bad{color:var(--bad)}
+</style>
+</head>
+<body>
+<main>
+  <h1>پنل کانال‌ها و گروه‌ها</h1>
+  <p class="sub">سه تا لیست داری: کانفیگ، پروکسی ایرانی و پروکسی روسی. با «ذخیره» مستقیم تو ریپوی گیت‌هاب نوشته می‌شن.</p>
+
+  <section>
+    <h2>اتصال به گیت‌هاب</h2>
+    <div class="grid">
+      <div><label for="owner">اکانت</label><input id="owner" dir="ltr" value="Iwanian" autocomplete="off"></div>
+      <div><label for="repo">ریپو</label><input id="repo" dir="ltr" value="Sub" autocomplete="off"></div>
+      <div><label for="branch">برنچ</label><input id="branch" dir="ltr" value="main" autocomplete="off"></div>
+      <div><label for="token">توکن (Fine-grained، فقط Contents: Read and write)</label><input id="token" type="password" dir="ltr" autocomplete="off"></div>
+    </div>
+    <div class="row">
+      <button class="primary" id="load">بارگذاری</button>
+      <label class="remember"><input type="checkbox" id="remember"> توکن تو همین مرورگر یادم بمونه</label>
+    </div>
+    <p class="hint">توکن فقط از مرورگر خودت به api.github.com می‌ره و جای دیگه‌ای ارسال نمی‌شه.</p>
+  </section>
+
+  <section>
+    <h2>کانال‌ها</h2>
+    <div class="tabs" role="tablist" id="tabs"></div>
+    <p class="hint" id="tabHint"></p>
+
+    <label for="bulk" style="margin-top:12px">افزودن به همین لیست: یوزرنیم یا لینک، هر کدوم تو یه خط (یا با فاصله و ویرگول جدا کن)</label>
+    <textarea id="bulk" dir="ltr" placeholder="@channel_name&#10;https://t.me/another_group&#10;third_channel"></textarea>
+    <div class="row"><button id="add" disabled>افزودن به لیست</button></div>
+    <div class="errs" id="errs" role="alert"></div>
+    <p class="hint">فقط کانال و گروه عمومی (که یوزرنیم دارن). لینک دعوت خصوصی (t.me/+...) کار نمی‌کنه. یه کانال می‌تونه تو چند لیست باشه و فقط یک بار خونده می‌شه.</p>
+
+    <input id="filter" dir="ltr" placeholder="جستجو تو این لیست" aria-label="جستجو تو این لیست" style="margin-top:12px">
+    <ul id="list"></ul>
+  </section>
+
+  <section>
+    <h2>ربات کانفیگ‌دهنده</h2>
+    <div class="grid">
+      <div><label for="bot_username">یوزرنیم ربات (که پیام می‌فرستی بهش)</label><input id="bot_username" dir="ltr" placeholder="@MyConfigBot"></div>
+      <div class="full"><label for="bot_text">متن پیام (هر فاصله‌ی زمانی پایین، دقیقاً همین متن برای ربات فرستاده می‌شه)</label><textarea id="bot_text" dir="auto" style="min-height:70px" placeholder="/start"></textarea><p class="hint">مثلاً /start یا هر متنی که ربات باهاش کانفیگ می‌ده. اگه خالی باشه /start فرستاده می‌شه. ربات باید کانفیگ رو تو متن جوابش بذاره، نه پشت دکمه.</p></div>
+      <div><label for="interval_minutes">فاصله‌ی ارسال (دقیقه)</label><input id="interval_minutes" type="number" min="15" dir="ltr"></div>
+      <div><label for="new_name">اسم جدید کانفیگ</label><input id="new_name" dir="ltr"></div>
+      <div><label for="output_file">فایل خروجی تو ریپو</label><input id="output_file" dir="ltr"></div>
+    </div>
+  </section>
+</main>
+
+<div class="bar"><div>
+  <div id="status" role="status" aria-live="polite">اول بارگذاری رو بزن.</div>
+  <button class="primary" id="save" disabled>ذخیره تو گیت‌هاب</button>
+</div></div>
+
+<script>
+const $ = s => document.querySelector(s);
+const LS = 'iwana_panel_v2';
+const LISTS = {
+  cfg:{file:'channels.txt', name:'کانفیگ', hint:'کانال‌هایی که کانفیگ (متن یا فایل قفل‌دار) می‌ذارن. خروجی: Telegram.txt',
+       head:'# کانال‌های کانفیگ — هر خط یک یوزرنیم (بدون @). این فایل رو پنل مدیریت می‌کنه\n'},
+  ir:{file:'proxy_ir.txt', name:'پروکسی ایرانی ⭐', hint:'کانال‌های پروکسی ایرانی. ته هر پروکسی یک فاصله و ⭐ اضافه می‌شه.',
+      head:'# کانال‌های پروکسی ایرانی — ته هر پروکسی فاصله + ⭐ اضافه می‌شه\n'},
+  ru:{file:'proxy_ru.txt', name:'پروکسی روسی ru', hint:'کانال‌های پروکسی روسی. ته هر پروکسی یک فاصله و ru اضافه می‌شه.',
+      head:'# کانال‌های پروکسی روسی — ته هر پروکسی فاصله + ru اضافه می‌شه\n'},
+};
+const KEYS = Object.keys(LISTS);
+const DEFAULTS = {bot_username:'',bot_text:'/start',interval_minutes:65,new_name:'@I_w_a_n_a',output_file:'Iwana.txt'};
+const SKEYS = Object.keys(DEFAULTS);
+const st = {tab:'cfg', lists:{}, orig:{}, fresh:{}, sha:{}, settings:{...DEFAULTS}, origSettings:'', loaded:false};
+for (const k of KEYS) { st.lists[k] = []; st.orig[k] = []; st.fresh[k] = new Set(); }
+
+/* ---------- ذخیره‌ی اتصال ---------- */
+try {
+  const s = JSON.parse(localStorage.getItem(LS) || 'null');
+  if (s) { $('#owner').value = s.owner||'Iwanian'; $('#repo').value = s.repo||'Sub'; $('#branch').value = s.branch||'main'; if (s.token) { $('#token').value = s.token; $('#remember').checked = true; } }
+} catch (e) {}
+function persistConn() {
+  try { if ($('#remember').checked) localStorage.setItem(LS, JSON.stringify(conn())); else localStorage.removeItem(LS); } catch (e) {}
+}
+
+/* ---------- GitHub ---------- */
+const b64enc = s => btoa(unescape(encodeURIComponent(s)));
+const b64dec = s => decodeURIComponent(escape(atob(s.replace(/\n/g, ''))));
+function conn() {
+  return {owner:$('#owner').value.trim(), repo:$('#repo').value.trim(), branch:$('#branch').value.trim()||'main', token:$('#token').value.trim()};
+}
+async function gh(path, opt = {}) {
+  const c = conn();
+  const url = `https://api.github.com/repos/${c.owner}/${c.repo}/contents/${path}` + (opt.method === 'PUT' ? '' : `?ref=${encodeURIComponent(c.branch)}`);
+  return fetch(url, {...opt, cache:'no-store', headers:{Authorization:`Bearer ${c.token}`, Accept:'application/vnd.github+json', 'Content-Type':'application/json'}});
+}
+async function readFile(path) {
+  const r = await gh(path);
+  if (r.status === 404) return null;
+  if (r.status === 401 || r.status === 403) throw new Error('توکن اشتباهه یا دسترسی نداره.');
+  if (!r.ok) throw new Error('خطای گیت‌هاب: ' + r.status);
+  const j = await r.json();
+  return {text:b64dec(j.content), sha:j.sha};
+}
+async function writeFile(path, text, sha, msg) {
+  const body = {message:msg, content:b64enc(text), branch:conn().branch};
+  if (sha) body.sha = sha;
+  const r = await gh(path, {method:'PUT', body:JSON.stringify(body)});
+  if (r.status === 409 || r.status === 422) throw new Error('فایل تو گیت‌هاب عوض شده؛ دوباره بارگذاری کن.');
+  if (!r.ok) throw new Error('ذخیره نشد (' + r.status + ')');
+  return (await r.json()).content.sha;
+}
+
+/* ---------- ورودی‌ها ---------- */
+function normalize(t) {
+  t = t.trim();
+  if (!t) return null;
+  if (/t\.me\/(\+|joinchat)/i.test(t) || /^tg:\/\/join/i.test(t)) return {err:'لینک دعوت خصوصی پشتیبانی نمی‌شه'};
+  const m = t.match(/(?:https?:\/\/)?(?:t|telegram)\.me\/(?:s\/)?([A-Za-z][A-Za-z0-9_]{3,31})/i);
+  const n = m ? m[1] : t.replace(/^@/, '');
+  if (!/^[A-Za-z][A-Za-z0-9_]{3,31}$/.test(n)) return {err:'یوزرنیم معتبر نیست'};
+  return {name:n};
+}
+function addChannels() {
+  const k = st.tab, errs = [];
+  const have = new Set(st.lists[k].map(x => x.toLowerCase()));
+  let added = 0, dup = 0;
+  for (const tok of $('#bulk').value.split(/[\s,،;]+/)) {
+    const r = normalize(tok);
+    if (!r) continue;
+    if (r.err) { errs.push(`${tok}  ←  ${r.err}`); continue; }
+    if (have.has(r.name.toLowerCase())) { dup++; continue; }
+    have.add(r.name.toLowerCase()); st.lists[k].push(r.name); st.fresh[k].add(r.name); added++;
+  }
+  $('#errs').textContent = errs.join('\n');
+  $('#bulk').value = errs.length ? errs.map(e => e.split('  ←')[0]).join('\n') : '';
+  if (added || dup) say(`${added} مورد به «${LISTS[k].name}» اضافه شد` + (dup ? ` (${dup} تا تکراری بود)` : '') + '. یادت نره ذخیره کنی.', 'ok');
+  render();
+}
+
+/* ---------- نمایش ---------- */
+function say(msg, kind = '') { const s = $('#status'); s.textContent = msg; s.className = kind; }
+function readSettings() {
+  const o = {};
+  for (const k of SKEYS) {
+    let v = $('#' + k).value.trim();
+    if (k === 'interval_minutes') v = Math.max(15, parseInt(v, 10) || 65);
+    o[k] = v;
+  }
+  return o;
+}
+function fillSettings() { for (const k of SKEYS) $('#' + k).value = st.settings[k] ?? DEFAULTS[k]; }
+const sortedJSON = a => JSON.stringify([...a].sort());
+const listDirty = k => sortedJSON(st.lists[k]) !== sortedJSON(st.orig[k]);
+const settingsDirty = () => JSON.stringify(readSettings()) !== st.origSettings;
+const anyDirty = () => KEYS.some(listDirty) || settingsDirty();
+
+function render() {
+  const k = st.tab, q = $('#filter').value.trim().toLowerCase();
+  $('#tabs').innerHTML = KEYS.map(x => `<button role="tab" data-k="${x}" aria-selected="${x === k}">${LISTS[x].name}<small>${st.loaded ? st.lists[x].length : ''}</small></button>`).join('');
+  $('#tabHint').textContent = LISTS[k].hint;
+  const items = st.lists[k].filter(x => x.toLowerCase().includes(q));
+  $('#list').innerHTML = items.length
+    ? items.map(n => `<li class="${st.fresh[k].has(n) ? 'added' : ''}"><span class="n">@${n}${st.fresh[k].has(n) ? '<span class="tag">جدید</span>' : ''}</span><button data-n="${n}" aria-label="حذف ${n}">حذف</button></li>`).join('')
+    : `<li class="empty">${st.loaded ? (q ? 'چیزی پیدا نشد.' : 'این لیست خالیه. از بالا اضافه کن.') : 'بعد از بارگذاری لیست اینجا میاد.'}</li>`;
+  $('#add').disabled = !st.loaded;
+  $('#save').disabled = !st.loaded || !anyDirty();
+}
+
+/* ---------- رویدادها ---------- */
+$('#load').onclick = async () => {
+  const c = conn();
+  if (!c.owner || !c.repo || !c.token) { say('اکانت، ریپو و توکن رو پر کن.', 'bad'); return; }
+  persistConn(); say('در حال بارگذاری…');
+  try {
+    const files = await Promise.all([...KEYS.map(k => readFile(LISTS[k].file)), readFile('settings.json')]);
+    KEYS.forEach((k, i) => {
+      const f = files[i];
+      st.sha[k] = f && f.sha;
+      st.lists[k] = f ? f.text.split(/\r?\n/).map(l => l.trim()).filter(l => l && !l.startsWith('#')) : [];
+      st.orig[k] = [...st.lists[k]]; st.fresh[k].clear();
+    });
+    const se = files[KEYS.length];
+    st.sha.settings = se && se.sha;
+    let s = {}; try { s = se ? JSON.parse(se.text) : {}; } catch (e) {}
+    st.settings = {...DEFAULTS, ...s};
+    fillSettings(); st.origSettings = JSON.stringify(readSettings());
+    st.loaded = true; render(); say('بارگذاری شد.', 'ok');
+  } catch (e) { say(e.message, 'bad'); }
+};
+$('#add').onclick = addChannels;
+$('#filter').oninput = render;
+$('#tabs').onclick = e => { const b = e.target.closest('button'); if (b && b.dataset.k) { st.tab = b.dataset.k; $('#errs').textContent = ''; render(); } };
+$('#list').onclick = e => {
+  const n = e.target.dataset && e.target.dataset.n;
+  if (!n) return;
+  const k = st.tab;
+  st.lists[k] = st.lists[k].filter(x => x !== n); st.fresh[k].delete(n); render();
+};
+for (const k of SKEYS) $('#' + k).addEventListener('input', render);
+$('#remember').onchange = persistConn;
+$('#save').onclick = async () => {
+  $('#save').disabled = true; say('در حال ذخیره…');
+  try {
+    for (const k of KEYS) {
+      if (!listDirty(k)) continue;
+      const sorted = [...st.lists[k]].sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
+      const text = LISTS[k].head + sorted.join('\n') + (sorted.length ? '\n' : '');
+      st.sha[k] = await writeFile(LISTS[k].file, text, st.sha[k], `panel: ${LISTS[k].file} (${sorted.length})`);
+      st.orig[k] = [...st.lists[k]]; st.fresh[k].clear();
+    }
+    if (settingsDirty()) {
+      const s = readSettings();
+      st.sha.settings = await writeFile('settings.json', JSON.stringify(s, null, 2) + '\n', st.sha.settings, 'panel: settings');
+      st.origSettings = JSON.stringify(s);
+    }
+    render(); say('تو گیت‌هاب ذخیره شد. اجرای بعدی از لیست‌های جدید استفاده می‌کنه.', 'ok');
+  } catch (e) { say(e.message, 'bad'); render(); }
+};
+window.addEventListener('beforeunload', e => { if (st.loaded && anyDirty()) { e.preventDefault(); e.returnValue = ''; } });
+render();
+</script>
+</body>
+</html>

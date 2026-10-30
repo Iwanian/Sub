@@ -1,0 +1,7 @@
+{
+  "bot_username": "",
+  "bot_text": "/start",
+  "interval_minutes": 65,
+  "new_name": "@I_w_a_n_a",
+  "output_file": "Iwana.txt"
+}
