@@ -23,7 +23,13 @@ jobs:
           TG_API_ID: ${{ secrets.TG_API_ID }}
           TG_API_HASH: ${{ secrets.TG_API_HASH }}
           TG_SESSION: ${{ secrets.TG_SESSION }}
+          WORKER_URL: ${{ secrets.WORKER_URL }}
+          WORKER_KEY: ${{ secrets.WORKER_KEY }}
           BOT_USERNAME: ${{ secrets.BOT_USERNAME }}
+          BOT_TEXT: ${{ secrets.BOT_TEXT }}
+          BOT_INTERVAL: ${{ secrets.BOT_INTERVAL }}
+          NEW_NAME: ${{ secrets.NEW_NAME }}
+          OUTPUT_FILE: ${{ secrets.OUTPUT_FILE }}
       - run: |
           git config user.name "iwana-bot"
           git config user.email "bot@users.noreply.github.com"
