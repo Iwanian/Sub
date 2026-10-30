@@ -4,7 +4,7 @@
 #  ir  -> پروکسی ایرانی -> ته هر خط: فاصله + ⭐
 #  ru  -> پروکسی روسی   -> ته هر خط: فاصله + ru
 # وضعیت (آخرین پیام خونده‌شده) تو KV کلادفلر می‌مونه و لاگ‌ها اسم کانال ندارن.
-import os, re, json, html, base64, asyncio, random, pathlib, sys, hashlib, urllib.request
+import os, re, json, html, base64, asyncio, random, pathlib, sys, hashlib, urllib.request, urllib.error
 from urllib.parse import parse_qs
 from telethon import TelegramClient
 from telethon.sessions import StringSession
@@ -23,6 +23,15 @@ PROXY_RE = re.compile(
     r'(?:https?://)?(?:t|telegram)\.(?:me|dog)/(proxy|socks)\?[^\s<>"\'`]+|tg://(proxy|socks)\?[^\s<>"\'`]+', re.I)
 LOCKED = {".npvt", ".npvs", ".hat", ".nm", ".dark", ".slip", ".tls", ".bpf", ".happ"}
 TEXT = {".txt", ".json", ".yaml", ".yml"}
+
+
+class WorkerError(Exception):
+    pass
+
+
+def describe(e):
+    """پیام خطای Worker (امن برای لاگ public) یا فقط نوع خطا."""
+    return str(e) if isinstance(e, WorkerError) else type(e).__name__
 
 
 def tag(s):
@@ -87,8 +96,13 @@ def api(path, payload):
     req = urllib.request.Request(
         WORKER_URL + path, data=json.dumps(payload).encode(),
         headers={"content-type": "application/json", "x-api-key": WORKER_KEY, "user-agent": "iwana-collector/1.0"})
-    with urllib.request.urlopen(req, timeout=90) as r:
-        return json.loads(r.read())
+    try:
+        with urllib.request.urlopen(req, timeout=90) as r:
+            return json.loads(r.read())
+    except urllib.error.HTTPError as e:
+        raise WorkerError(f"HTTP {e.code} {e.read(200).decode('utf-8', 'ignore').strip()}") from None
+    except urllib.error.URLError as e:
+        raise WorkerError(f"اتصال به Worker ممکن نیست: {str(e.reason)[:80]}") from None
 
 
 async def get_channel(client, src, cache):
@@ -113,7 +127,7 @@ async def main():
     try:
         state = (await asyncio.to_thread(api, "/state", {"name": "collect"})).get("data") or {}
     except Exception as e:
-        print(f"خوندن وضعیت از Worker شکست خورد: {type(e).__name__}")
+        print(f"خوندن وضعیت از Worker شکست خورد: {describe(e)}")
         sys.exit(1)
     state.setdefault("last", {}); state.setdefault("peers", {})
 
@@ -185,13 +199,13 @@ async def main():
                 print(f"{kind}: {r.get('added', 0)} جدید از {r.get('received', 0)}")
     except Exception as e:
         ok = False
-        print(f"push failed: {type(e).__name__}")
+        print(f"push failed: {describe(e)}")
     if ok:
         state["last"].update(new_last)
     try:
         await asyncio.to_thread(api, "/state", {"name": "collect", "data": state})
     except Exception as e:
-        print(f"ذخیره‌ی وضعیت شکست خورد: {type(e).__name__}")
+        print(f"ذخیره‌ی وضعیت شکست خورد: {describe(e)}")
         ok = False
     if not ok:
         sys.exit(1)

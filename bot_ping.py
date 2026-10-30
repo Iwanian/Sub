@@ -1,8 +1,17 @@
 # هر ~۶۵ دقیقه یه پیام برای ربات می‌فرسته، کانفیگ جوابش رو اسم‌گذاری می‌کنه و تو Iwana.txt می‌ذاره.
 # تنظیمات از Secret ها میاد: BOT_USERNAME, BOT_TEXT (اختیاری: BOT_INTERVAL, NEW_NAME, OUTPUT_FILE).
 # وضعیت تو KV کلادفلر می‌مونه.
-import os, re, sys, json, time, base64, asyncio, pathlib, urllib.request
+import os, re, sys, json, time, base64, asyncio, pathlib, urllib.request, urllib.error
 from urllib.parse import quote
+
+
+class WorkerError(Exception):
+    pass
+
+
+def describe(e):
+    """پیام خطای Worker (امن برای لاگ public) یا فقط نوع خطا."""
+    return str(e) if isinstance(e, WorkerError) else type(e).__name__
 
 ROOT = pathlib.Path(__file__).parent
 WORKER_URL = os.environ["WORKER_URL"].rstrip("/")
@@ -32,8 +41,13 @@ def api(path, payload):
     req = urllib.request.Request(
         WORKER_URL + path, data=json.dumps(payload).encode(),
         headers={"content-type": "application/json", "x-api-key": WORKER_KEY, "user-agent": "iwana-collector/1.0"})
-    with urllib.request.urlopen(req, timeout=60) as r:
-        return json.loads(r.read())
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            return json.loads(r.read())
+    except urllib.error.HTTPError as e:
+        raise WorkerError(f"HTTP {e.code} {e.read(200).decode('utf-8', 'ignore').strip()}") from None
+    except urllib.error.URLError as e:
+        raise WorkerError(f"اتصال به Worker ممکن نیست: {str(e.reason)[:80]}") from None
 
 
 def rename(link):
@@ -87,7 +101,7 @@ def main():
     try:
         state = api("/state", {"name": "bot"}).get("data") or {}
     except Exception as e:
-        print(f"خوندن وضعیت از Worker شکست خورد: {type(e).__name__}")
+        print(f"خوندن وضعیت از Worker شکست خورد: {describe(e)}")
         return                                    # بدون وضعیت چیزی نمی‌فرستیم
     if not due(state):
         print("هنوز وقتش نشده")
@@ -96,7 +110,7 @@ def main():
     try:
         api("/state", {"name": "bot", "data": state})
     except Exception as e:
-        print(f"ذخیره‌ی وضعیت شکست خورد: {type(e).__name__}")
+        print(f"ذخیره‌ی وضعیت شکست خورد: {describe(e)}")
         return
     try:
         found = asyncio.run(run())
@@ -118,7 +132,7 @@ def main():
     try:
         api("/state", {"name": "bot", "data": state})
     except Exception as e:
-        print(f"ذخیره‌ی وضعیت شکست خورد: {type(e).__name__}")
+        print(f"ذخیره‌ی وضعیت شکست خورد: {describe(e)}")
     print(f"{len(new)} کانفیگ ذخیره شد")
 
 
