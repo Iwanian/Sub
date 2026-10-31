@@ -132,6 +132,8 @@ async def main():
     state.setdefault("last", {}); state.setdefault("peers", {})
 
     configs, proxies, new_last, n_files = [], [], {}, 0
+    stats = {"ok": 0, "msgs": 0}
+    errs = []
 
     async with TelegramClient(StringSession(os.environ["TG_SESSION"]),
                               int(os.environ["TG_API_ID"]), os.environ["TG_API_HASH"]) as client:
@@ -145,6 +147,7 @@ async def main():
                 max_id = last
                 async for msg in it:
                     max_id = max(max_id, msg.id)
+                    stats["msgs"] += 1
                     blob = gather(msg)
 
                     if rs & {"ir", "ru"}:
@@ -180,17 +183,23 @@ async def main():
                         data = await msg.download_media(file=bytes)
                         configs += extract_configs(data.decode("utf-8", errors="ignore"))
                 new_last[src] = max_id
+                stats["ok"] += 1
             except FloodWaitError as e:
                 print(f"FloodWait {e.seconds}s on {tag(src)}")
+                errs.append("FloodWait")
                 if e.seconds > 60:
                     break
                 await asyncio.sleep(e.seconds + 2)
             except Exception as e:
                 print(f"skip {tag(src)}: {type(e).__name__}")
+                errs.append(type(e).__name__)
             await asyncio.sleep(random.uniform(2, 5))
 
     configs = list(dict.fromkeys(configs))
     proxies = list(dict.fromkeys(proxies))
+    print(f"خلاصه: کانال موفق {stats['ok']}/{len(roles)}، پیام جدید {stats['msgs']}، "
+          f"کانفیگ {len(configs)}، پروکسی {len(proxies)}، فایل قفل‌دار {n_files}"
+          + (f"، خطاها: {sorted(set(errs))}" if errs else ""))
     ok = True
     try:
         for kind, lines in (("configs", configs), ("proxies", proxies)):

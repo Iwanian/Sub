@@ -1,8 +1,8 @@
 # هر ~۶۵ دقیقه یه پیام برای ربات می‌فرسته، کانفیگ جوابش رو اسم‌گذاری می‌کنه و تو Iwana.txt می‌ذاره.
 # تنظیمات از Secret ها میاد: BOT_USERNAME, BOT_TEXT (اختیاری: BOT_INTERVAL, NEW_NAME, OUTPUT_FILE).
 # وضعیت تو KV کلادفلر می‌مونه.
-import os, re, sys, json, time, base64, asyncio, pathlib, urllib.request, urllib.error
-from urllib.parse import quote
+import os, re, sys, json, time, base64, asyncio, pathlib, ipaddress, urllib.request, urllib.error
+from urllib.parse import quote, urlsplit
 
 
 class WorkerError(Exception):
@@ -32,9 +32,71 @@ _of = env("OUTPUT_FILE", "Iwana.txt")
 if not re.fullmatch(r"[A-Za-z0-9_.-]{1,64}\.txt", _of):
     sys.exit("output_file نامعتبره (فقط اسم ساده با پسوند .txt)")
 OUTFILE = ROOT / _of
+FORCE = env("FORCE") == "true"      # اجرای دستی با تیک force: بدون چک زمان
 CAP = 500
 
 CFG_RE = re.compile(r'(?:vless|vmess|trojan|ss|hysteria2|hy2|tuic)://[^\s<>"\'`]+', re.I)
+URL_RE = re.compile(r'https?://[^\s<>"\'`]+', re.I)
+SKIP_HOSTS = ("t.me", "telegram.me", "telegram.org", "telegra.ph")
+MAX_SUB_URLS = 5
+MAX_SUB_BYTES = 2_000_000
+
+
+def sub_urls(text):
+    """لینک‌های اشتراک احتمالی از متن/دکمه‌ی جواب ربات (لینک‌های تلگرام و IP خصوصی رد می‌شن)."""
+    out = []
+    for u in URL_RE.findall(text):
+        u = u.rstrip(".,;)]}»،")
+        host = (urlsplit(u).hostname or "").lower()
+        if not host or any(host == s or host.endswith("." + s) for s in SKIP_HOSTS):
+            continue
+        try:
+            ip = ipaddress.ip_address(host)
+            if ip.is_private or ip.is_loopback or ip.is_link_local or ip.is_reserved:
+                continue
+        except ValueError:
+            pass
+        out.append(u)
+    return list(dict.fromkeys(out))[:MAX_SUB_URLS]
+
+
+def fetch_sub(url):
+    req = urllib.request.Request(url, headers={"User-Agent": "v2rayNG/1.8.5", "Accept": "*/*"})
+    with urllib.request.urlopen(req, timeout=20) as r:
+        raw = r.read(MAX_SUB_BYTES + 1)
+    if len(raw) > MAX_SUB_BYTES:
+        raise ValueError("too_large")
+    return raw.decode("utf-8", errors="ignore")
+
+
+def links_from_body(body):
+    """اشتراک یا متن ساده‌ست یا base64 (استاندارد/urlsafe)."""
+    found = CFG_RE.findall(body)
+    if found:
+        return found
+    compact = re.sub(r"\s+", "", body)
+    for fn in (base64.b64decode, base64.urlsafe_b64decode):
+        try:
+            dec = fn(compact + "=" * (-len(compact) % 4)).decode("utf-8", errors="ignore")
+        except Exception:
+            continue
+        found = CFG_RE.findall(dec)
+        if found:
+            return found
+    return []
+
+
+def is_junk(link):
+    """ورودی‌های اطلاعاتی پنل‌ها (مثل «حجم باقی‌مانده») که سرور واقعی ندارن."""
+    try:
+        if link.lower().startswith("vmess://"):
+            body = link[8:].split("#")[0]
+            host = json.loads(base64.b64decode(body + "=" * (-len(body) % 4)))["add"]
+        else:
+            host = urlsplit(link).hostname or ""
+    except Exception:
+        return False
+    return str(host).lower() in ("0.0.0.0", "127.0.0.1", "localhost", "::1")
 
 
 def api(path, payload):
@@ -78,7 +140,7 @@ async def run():
                               int(os.environ["TG_API_ID"]), os.environ["TG_API_HASH"]) as c:
         peer = await c.get_input_entity(BOT)      # هر بار پیدا می‌شه؛ چیزی از ربات ذخیره نمی‌شه
         sent = await c.send_message(peer, TEXT)
-        found = []
+        found, seen, urls = [], {}, []
         for _ in range(8):                        # تا ~۴۰ ثانیه منتظر جواب می‌مونه
             await asyncio.sleep(5)
             async for m in c.iter_messages(peer, min_id=sent.id, limit=10):
@@ -88,10 +150,20 @@ async def run():
                 for e in (m.entities or []):
                     if isinstance(e, MessageEntityTextUrl):
                         t += "\n" + e.url
+                try:
+                    for row in (m.buttons or []):
+                        for b in row:
+                            if getattr(b, "url", None):
+                                t += "\n" + b.url
+                except Exception:
+                    pass
                 found += CFG_RE.findall(t)
-            if found:
+                urls += sub_urls(t)
+                seen[m.id] = {"btn": m.reply_markup is not None, "media": m.media is not None,
+                              "schemes": set(s.lower() for s in re.findall(r"([A-Za-z][A-Za-z0-9+.-]{1,12})://", t))}
+            if found or urls:
                 break
-    return found
+    return list(dict.fromkeys(found)), seen, list(dict.fromkeys(urls))[:MAX_SUB_URLS]
 
 
 def main():
@@ -103,7 +175,7 @@ def main():
     except Exception as e:
         print(f"خوندن وضعیت از Worker شکست خورد: {describe(e)}")
         return                                    # بدون وضعیت چیزی نمی‌فرستیم
-    if not due(state):
+    if not FORCE and not due(state):
         print("هنوز وقتش نشده")
         return
     state["last_try"] = time.time()
@@ -113,14 +185,35 @@ def main():
         print(f"ذخیره‌ی وضعیت شکست خورد: {describe(e)}")
         return
     try:
-        found = asyncio.run(run())
+        found, seen, urls = asyncio.run(run())
     except Exception as e:
         print(f"ارسال به ربات شکست خورد: {type(e).__name__}")
         return
 
-    new = [r for r in (rename(x) for x in found) if r]
+    # گزارش بدون افشای محتوا: فقط شمارش و نوع لینک‌ها
+    if not seen:
+        print("ربات تا ۴۰ ثانیه هیچ جوابی نداد (ربات رو Start کردی؟ یوزرنیم درسته؟)")
+    else:
+        schemes = sorted(set().union(*[v["schemes"] for v in seen.values()]))
+        print(f"جواب ربات: {len(seen)} پیام، {sum(v['btn'] for v in seen.values())} با دکمه، "
+              f"{sum(v['media'] for v in seen.values())} با فایل/عکس، نوع لینک‌ها: {schemes or 'هیچ'}")
+    # لینک اشتراک: دانلود و استخراج کانفیگ (آدرس تو لاگ چاپ نمی‌شه، چون توکن شخصی داره)
+    for i, u in enumerate(urls, 1):
+        try:
+            got = links_from_body(fetch_sub(u))
+            print(f"اشتراک {i}: {len(got)} کانفیگ")
+            found += got
+        except urllib.error.HTTPError as e:
+            print(f"اشتراک {i}: HTTP {e.code}")
+        except Exception as e:
+            print(f"اشتراک {i}: خطا ({type(e).__name__})")
+    found = list(dict.fromkeys(found))
+    junk = [x for x in found if is_junk(x)]
+    if junk:
+        print(f"{len(junk)} مورد اطلاعاتی (بدون سرور واقعی) حذف شد")
+    new = [r for r in (rename(x) for x in found if not is_junk(x)) if r]
     if not new:
-        print("کانفیگی تو جواب ربات پیدا نشد")
+        print("کانفیگی تو جواب ربات (متن یا لینک اشتراک) پیدا نشد")
         return
     old = OUTFILE.read_text(encoding="utf-8").splitlines() if OUTFILE.exists() else []
     merged = []
