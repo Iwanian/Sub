@@ -8,8 +8,8 @@ import os, re, json, html, base64, asyncio, random, pathlib, sys, hashlib, urlli
 from urllib.parse import parse_qs
 from telethon import TelegramClient
 from telethon.sessions import StringSession
-from telethon.errors import FloodWaitError
-from telethon.tl.types import InputPeerChannel, MessageEntityTextUrl
+from telethon.errors import FloodWaitError, ChannelInvalidError, PeerIdInvalidError
+from telethon.tl.types import Channel, InputPeerChannel, MessageEntityTextUrl
 
 WORKER_URL = os.environ["WORKER_URL"].rstrip("/")
 WORKER_KEY = os.environ["WORKER_KEY"]
@@ -105,11 +105,14 @@ def api(path, payload):
         raise WorkerError(f"اتصال به Worker ممکن نیست: {str(e.reason)[:80]}") from None
 
 
-async def get_channel(client, src, cache):
-    if src in cache:
+async def get_channel(client, src, cache, fresh=False):
+    """شناسه‌ی کانال از کش؛ اگه کش نبود (یا fresh) از تلگرام پیدا می‌شه."""
+    if not fresh and src in cache:
         i, h = cache[src]
         return InputPeerChannel(i, h)
     ent = await client.get_entity(src)
+    if not isinstance(ent, Channel):
+        raise TypeError("not_a_channel")        # یوزرنیم مال آدم یا ربات بود، نه کانال/گروه
     cache[src] = [ent.id, ent.access_hash]
     await asyncio.sleep(random.uniform(3, 6))
     return InputPeerChannel(ent.id, ent.access_hash)
@@ -130,60 +133,73 @@ async def main():
         print(f"خوندن وضعیت از Worker شکست خورد: {describe(e)}")
         sys.exit(1)
     state.setdefault("last", {}); state.setdefault("peers", {})
+    # شناسه‌ی کانال‌ها به سشن وابسته‌ست؛ اگه TG_SESSION عوض شده باشه کش باطل می‌شه
+    fp = hashlib.sha1(os.environ["TG_SESSION"].encode()).hexdigest()[:8]
+    if state.get("fp") != fp:
+        state["peers"] = {}
+        state["fp"] = fp
 
     configs, proxies, new_last, n_files = [], [], {}, 0
-    stats = {"ok": 0, "msgs": 0}
+    stats = {"ok": 0, "msgs": 0, "healed": 0}
     errs = []
 
     async with TelegramClient(StringSession(os.environ["TG_SESSION"]),
                               int(os.environ["TG_API_ID"]), os.environ["TG_API_HASH"]) as client:
         for src, rs in roles.items():
             try:
-                peer = await get_channel(client, src, state["peers"])
-                last = state["last"].get(src, 0)
-                incremental = bool(last)
-                it = (client.iter_messages(peer, min_id=last, reverse=True, limit=500) if incremental
-                      else client.iter_messages(peer, limit=100))
-                max_id = last
-                async for msg in it:
-                    max_id = max(max_id, msg.id)
-                    stats["msgs"] += 1
-                    blob = gather(msg)
+                for attempt in (0, 1):
+                    try:
+                        peer = await get_channel(client, src, state["peers"], fresh=bool(attempt))
+                        last = state["last"].get(src, 0)
+                        incremental = bool(last)
+                        it = (client.iter_messages(peer, min_id=last, reverse=True, limit=500) if incremental
+                              else client.iter_messages(peer, limit=100))
+                        max_id = last
+                        async for msg in it:
+                            max_id = max(max_id, msg.id)
+                            stats["msgs"] += 1
+                            blob = gather(msg)
 
-                    if rs & {"ir", "ru"}:
-                        found = norm_proxies(blob)
-                        for role in ("ir", "ru"):
-                            if role in rs:
-                                proxies += [p + SUFFIX[role] for p in found]
+                            if rs & {"ir", "ru"}:
+                                found = norm_proxies(blob)
+                                for role in ("ir", "ru"):
+                                    if role in rs:
+                                        proxies += [p + SUFFIX[role] for p in found]
 
-                    if "cfg" not in rs:
-                        continue
-                    configs += extract_configs(blob)
+                            if "cfg" not in rs:
+                                continue
+                            configs += extract_configs(blob)
 
-                    f = msg.file
-                    if not (f and f.name and (f.size or 0) < 1_000_000):
-                        continue
-                    ext = pathlib.Path(f.name).suffix.lower()
-                    if ext in LOCKED:
-                        if n_files >= MAX_FILES:
-                            if incremental:
-                                max_id = msg.id - 1
-                                break
-                            continue
-                        data = await msg.download_media(file=bytes)      # فقط تو حافظه
-                        n_files += 1
-                        r = await asyncio.to_thread(api, "/convert",
-                                                    {"name": f.name, "b64": base64.b64encode(data).decode()})
-                        configs += r.get("links", [])
-                        if r.get("needs_password"):
-                            print(f"رمز داره، رد شد: {tag(src)}/{msg.id}")
-                        elif r.get("error"):
-                            print(f"تبدیل نشد {tag(src)}/{msg.id}: {r['error']}")
-                    elif ext in TEXT:
-                        data = await msg.download_media(file=bytes)
-                        configs += extract_configs(data.decode("utf-8", errors="ignore"))
-                new_last[src] = max_id
-                stats["ok"] += 1
+                            f = msg.file
+                            if not (f and f.name and (f.size or 0) < 1_000_000):
+                                continue
+                            ext = pathlib.Path(f.name).suffix.lower()
+                            if ext in LOCKED:
+                                if n_files >= MAX_FILES:
+                                    if incremental:
+                                        max_id = msg.id - 1
+                                        break
+                                    continue
+                                data = await msg.download_media(file=bytes)      # فقط تو حافظه
+                                n_files += 1
+                                r = await asyncio.to_thread(api, "/convert",
+                                                            {"name": f.name, "b64": base64.b64encode(data).decode()})
+                                configs += r.get("links", [])
+                                if r.get("needs_password"):
+                                    print(f"رمز داره، رد شد: {tag(src)}/{msg.id}")
+                                elif r.get("error"):
+                                    print(f"تبدیل نشد {tag(src)}/{msg.id}: {r['error']}")
+                            elif ext in TEXT:
+                                data = await msg.download_media(file=bytes)
+                                configs += extract_configs(data.decode("utf-8", errors="ignore"))
+                        new_last[src] = max_id
+                        stats["ok"] += 1
+                        break
+                    except (ChannelInvalidError, PeerIdInvalidError):
+                        if attempt == 1:
+                            raise
+                        state["peers"].pop(src, None)      # کش خراب بود؛ یک بار دوباره پیدا می‌کنیم
+                        stats["healed"] += 1
             except FloodWaitError as e:
                 print(f"FloodWait {e.seconds}s on {tag(src)}")
                 errs.append("FloodWait")
@@ -199,6 +215,7 @@ async def main():
     proxies = list(dict.fromkeys(proxies))
     print(f"خلاصه: کانال موفق {stats['ok']}/{len(roles)}، پیام جدید {stats['msgs']}، "
           f"کانفیگ {len(configs)}، پروکسی {len(proxies)}، فایل قفل‌دار {n_files}"
+          + (f"، کش بازسازی‌شده {stats['healed']}" if stats["healed"] else "")
           + (f"، خطاها: {sorted(set(errs))}" if errs else ""))
     ok = True
     try:

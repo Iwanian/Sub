@@ -1,8 +1,13 @@
-# هر ~۶۵ دقیقه یه پیام برای ربات می‌فرسته، کانفیگ جوابش رو اسم‌گذاری می‌کنه و تو Iwana.txt می‌ذاره.
-# تنظیمات از Secret ها میاد: BOT_USERNAME, BOT_TEXT (اختیاری: BOT_INTERVAL, NEW_NAME, OUTPUT_FILE).
+# هر ~۶۵ دقیقه یه پیام برای ربات می‌فرسته، منتظر پیام حاوی لینک اشتراک (یا کانفیگ) می‌مونه،
+# کانفیگ‌ها رو درمیاره، اسمشون رو عوض می‌کنه و تو Iwana.txt می‌ذاره.
+# تنظیمات از Secret ها میاد: BOT_USERNAME, BOT_TEXT (اختیاری: BOT_INTERVAL, NEW_NAME, OUTPUT_FILE, BOT_WAIT).
 # وضعیت تو KV کلادفلر می‌مونه.
 import os, re, sys, json, time, base64, asyncio, pathlib, ipaddress, urllib.request, urllib.error
 from urllib.parse import quote, urlsplit
+
+ROOT = pathlib.Path(__file__).parent
+WORKER_URL = os.environ["WORKER_URL"].rstrip("/")
+WORKER_KEY = os.environ["WORKER_KEY"]
 
 
 class WorkerError(Exception):
@@ -13,9 +18,6 @@ def describe(e):
     """پیام خطای Worker (امن برای لاگ public) یا فقط نوع خطا."""
     return str(e) if isinstance(e, WorkerError) else type(e).__name__
 
-ROOT = pathlib.Path(__file__).parent
-WORKER_URL = os.environ["WORKER_URL"].rstrip("/")
-WORKER_KEY = os.environ["WORKER_KEY"]
 
 def env(name, default=""):
     return (os.environ.get(name) or "").strip() or default
@@ -28,6 +30,10 @@ try:
     INTERVAL = max(15, int(env("BOT_INTERVAL", "65"))) * 60
 except ValueError:
     INTERVAL = 65 * 60
+try:
+    WAIT = min(240, max(15, int(env("BOT_WAIT", "60"))))      # حداکثر چند ثانیه منتظر پیام‌های ربات بمونه
+except ValueError:
+    WAIT = 60
 _of = env("OUTPUT_FILE", "Iwana.txt")
 if not re.fullmatch(r"[A-Za-z0-9_.-]{1,64}\.txt", _of):
     sys.exit("output_file نامعتبره (فقط اسم ساده با پسوند .txt)")
@@ -40,6 +46,19 @@ URL_RE = re.compile(r'https?://[^\s<>"\'`]+', re.I)
 SKIP_HOSTS = ("t.me", "telegram.me", "telegram.org", "telegra.ph")
 MAX_SUB_URLS = 5
 MAX_SUB_BYTES = 2_000_000
+
+
+def api(path, payload):
+    req = urllib.request.Request(
+        WORKER_URL + path, data=json.dumps(payload).encode(),
+        headers={"content-type": "application/json", "x-api-key": WORKER_KEY, "user-agent": "iwana-collector/1.0"})
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            return json.loads(r.read())
+    except urllib.error.HTTPError as e:
+        raise WorkerError(f"HTTP {e.code} {e.read(200).decode('utf-8', 'ignore').strip()}") from None
+    except urllib.error.URLError as e:
+        raise WorkerError(f"اتصال به Worker ممکن نیست: {str(e.reason)[:80]}") from None
 
 
 def sub_urls(text):
@@ -57,7 +76,7 @@ def sub_urls(text):
         except ValueError:
             pass
         out.append(u)
-    return list(dict.fromkeys(out))[:MAX_SUB_URLS]
+    return list(dict.fromkeys(out))
 
 
 def fetch_sub(url):
@@ -99,19 +118,6 @@ def is_junk(link):
     return str(host).lower() in ("0.0.0.0", "127.0.0.1", "localhost", "::1")
 
 
-def api(path, payload):
-    req = urllib.request.Request(
-        WORKER_URL + path, data=json.dumps(payload).encode(),
-        headers={"content-type": "application/json", "x-api-key": WORKER_KEY, "user-agent": "iwana-collector/1.0"})
-    try:
-        with urllib.request.urlopen(req, timeout=60) as r:
-            return json.loads(r.read())
-    except urllib.error.HTTPError as e:
-        raise WorkerError(f"HTTP {e.code} {e.read(200).decode('utf-8', 'ignore').strip()}") from None
-    except urllib.error.URLError as e:
-        raise WorkerError(f"اتصال به Worker ممکن نیست: {str(e.reason)[:80]}") from None
-
-
 def rename(link):
     link = link.strip().rstrip(".,;)]}»")
     if link.lower().startswith("vmess://"):
@@ -136,13 +142,15 @@ async def run():
     from telethon.sessions import StringSession
     from telethon.tl.types import MessageEntityTextUrl
 
+    found, seen, fetched = [], {}, {}      # fetched: لینک اشتراک -> نتیجه (آدرس هیچ‌جا چاپ نمی‌شه)
     async with TelegramClient(StringSession(os.environ["TG_SESSION"]),
                               int(os.environ["TG_API_ID"]), os.environ["TG_API_HASH"]) as c:
         peer = await c.get_input_entity(BOT)      # هر بار پیدا می‌شه؛ چیزی از ربات ذخیره نمی‌شه
         sent = await c.send_message(peer, TEXT)
-        found, seen, urls = [], {}, []
-        for _ in range(8):                        # تا ~۴۰ ثانیه منتظر جواب می‌مونه
-            await asyncio.sleep(5)
+        # پیام اول ممکنه فقط «صبر کن» باشه و لینک تو پیام دوم بیاد؛ پس تا کانفیگ واقعی نیومده صبر می‌کنیم
+        for _ in range(max(1, WAIT // 3)):
+            await asyncio.sleep(3)
+            urls = []
             async for m in c.iter_messages(peer, min_id=sent.id, limit=10):
                 if m.out:
                     continue
@@ -161,9 +169,20 @@ async def run():
                 urls += sub_urls(t)
                 seen[m.id] = {"btn": m.reply_markup is not None, "media": m.media is not None,
                               "schemes": set(s.lower() for s in re.findall(r"([A-Za-z][A-Za-z0-9+.-]{1,12})://", t))}
-            if found or urls:
+            for u in list(dict.fromkeys(urls))[:MAX_SUB_URLS]:
+                if u in fetched:
+                    continue
+                try:
+                    got = links_from_body(await asyncio.to_thread(fetch_sub, u))
+                    fetched[u] = f"{len(got)} کانفیگ"
+                    found += got
+                except urllib.error.HTTPError as e:
+                    fetched[u] = f"HTTP {e.code}"
+                except Exception as e:
+                    fetched[u] = f"خطا ({type(e).__name__})"
+            if found:
                 break
-    return list(dict.fromkeys(found)), seen, list(dict.fromkeys(urls))[:MAX_SUB_URLS]
+    return list(dict.fromkeys(found)), seen, list(fetched.values())
 
 
 def main():
@@ -185,29 +204,20 @@ def main():
         print(f"ذخیره‌ی وضعیت شکست خورد: {describe(e)}")
         return
     try:
-        found, seen, urls = asyncio.run(run())
+        found, seen, fetched = asyncio.run(run())
     except Exception as e:
         print(f"ارسال به ربات شکست خورد: {type(e).__name__}")
         return
 
     # گزارش بدون افشای محتوا: فقط شمارش و نوع لینک‌ها
     if not seen:
-        print("ربات تا ۴۰ ثانیه هیچ جوابی نداد (ربات رو Start کردی؟ یوزرنیم درسته؟)")
+        print(f"ربات تا {WAIT} ثانیه هیچ جوابی نداد (ربات رو Start کردی؟ یوزرنیم درسته؟)")
     else:
         schemes = sorted(set().union(*[v["schemes"] for v in seen.values()]))
         print(f"جواب ربات: {len(seen)} پیام، {sum(v['btn'] for v in seen.values())} با دکمه، "
               f"{sum(v['media'] for v in seen.values())} با فایل/عکس، نوع لینک‌ها: {schemes or 'هیچ'}")
-    # لینک اشتراک: دانلود و استخراج کانفیگ (آدرس تو لاگ چاپ نمی‌شه، چون توکن شخصی داره)
-    for i, u in enumerate(urls, 1):
-        try:
-            got = links_from_body(fetch_sub(u))
-            print(f"اشتراک {i}: {len(got)} کانفیگ")
-            found += got
-        except urllib.error.HTTPError as e:
-            print(f"اشتراک {i}: HTTP {e.code}")
-        except Exception as e:
-            print(f"اشتراک {i}: خطا ({type(e).__name__})")
-    found = list(dict.fromkeys(found))
+    for i, r in enumerate(fetched, 1):
+        print(f"اشتراک {i}: {r}")
     junk = [x for x in found if is_junk(x)]
     if junk:
         print(f"{len(junk)} مورد اطلاعاتی (بدون سرور واقعی) حذف شد")
