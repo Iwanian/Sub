@@ -3,6 +3,11 @@ on:
   schedule:
     - cron: "*/5 * * * *"
   workflow_dispatch:
+    inputs:
+      force:
+        description: "بدون چک زمان، همین الان به ربات پیام بده"
+        type: boolean
+        default: false
 concurrency:
   group: telegram-session
   cancel-in-progress: false
@@ -25,6 +30,7 @@ jobs:
           TG_SESSION: ${{ secrets.TG_SESSION }}
           WORKER_URL: ${{ secrets.WORKER_URL }}
           WORKER_KEY: ${{ secrets.WORKER_KEY }}
+          FORCE: ${{ inputs.force }}
           BOT_USERNAME: ${{ secrets.BOT_USERNAME }}
           BOT_TEXT: ${{ secrets.BOT_TEXT }}
           BOT_INTERVAL: ${{ secrets.BOT_INTERVAL }}
