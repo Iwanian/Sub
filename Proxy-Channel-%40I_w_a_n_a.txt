@@ -1,3 +1,13 @@
+tg://proxy?server=api.godserver52.info&port=443&secret=00000000000000000000000000000000 ⭐
+tg://proxy?server=93.113.230.145&port=443&secret=140493a281a661d69a5712690344a429 ⭐
+tg://proxy?server=tim.pd.mi.v6.mgi.5s.n.p.wu.basketbalo.ir.&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
+tg://proxy?server=chd7667k7.ir.meli-n13.info&port=8443&secret=104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=ch767dhk8.ir.ir.ir.meli-n12.info&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=11hh79.masi.ir.he6fhd.ru&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=chd67k7.ir.meli-n13.info&port=8443&secret=104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=chhk8.ir.ir.ir.meli-n12.info&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=nnh79.masi.ir.he6fhd.ru&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=www.gigimystore.ir.&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=208.87.242.223&port=8443&secret=EERighJJvXrFGRMCIMjdCQ ⭐
 tg://proxy?server=haf.anotelinopalk.co.uk&port=8880&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=rain.lavazemi2.co.uk&port=2053&secret=79e344818749bd7ac519130220c25d09 ⭐
