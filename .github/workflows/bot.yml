@@ -28,6 +28,15 @@ jobs:
           TG_API_ID: ${{ secrets.TG_API_ID }}
           TG_API_HASH: ${{ secrets.TG_API_HASH }}
           TG_SESSION: ${{ secrets.TG_SESSION }}
+          TG_SESSION_2: ${{ secrets.TG_SESSION_2 }}
+          TG_SESSION_3: ${{ secrets.TG_SESSION_3 }}
+          TG_SESSION_4: ${{ secrets.TG_SESSION_4 }}
+          TG_SESSION_5: ${{ secrets.TG_SESSION_5 }}
+          TG_SESSION_6: ${{ secrets.TG_SESSION_6 }}
+          TG_SESSION_7: ${{ secrets.TG_SESSION_7 }}
+          TG_SESSION_8: ${{ secrets.TG_SESSION_8 }}
+          TG_SESSION_9: ${{ secrets.TG_SESSION_9 }}
+          TG_SESSION_10: ${{ secrets.TG_SESSION_10 }}
           WORKER_URL: ${{ secrets.WORKER_URL }}
           WORKER_KEY: ${{ secrets.WORKER_KEY }}
           FORCE: ${{ inputs.force }}
@@ -36,6 +45,7 @@ jobs:
           BOT_INTERVAL: ${{ secrets.BOT_INTERVAL }}
           NEW_NAME: ${{ secrets.NEW_NAME }}
           OUTPUT_FILE: ${{ secrets.OUTPUT_FILE }}
+          BOT_WAIT: ${{ secrets.BOT_WAIT }}
       - run: |
           git config user.name "iwana-bot"
           git config user.email "bot@users.noreply.github.com"
