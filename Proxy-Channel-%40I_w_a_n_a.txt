@@ -1,3 +1,11 @@
+tg://proxy?server=org.mediaad.co.uk&port=8880&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
+tg://proxy?server=se.anotelinopalk.co.uk&port=8880&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
+tg://proxy?server=ir.mediaad.co.uk&port=8880&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
+tg://proxy?server=haf.anotelinopalk.co.uk&port=8880&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
+tg://proxy?server=shsh.anotelinopalk.co.uk&port=8880&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
+tg://proxy?server=pnj.anotelinopalk.co.uk&port=8880&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
+tg://proxy?server=hash.anotelinopalk.co.uk&port=8880&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
+tg://proxy?server=noh.anotelinopalk.co.uk&port=8880&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=91.98.107.89&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=46.62.220.216&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=46.62.224.5&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
