@@ -1,3 +1,4 @@
+tg://proxy?server=dizgrakh.mamadali.co.uk&port=4455&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=proxy.nizya.club&port=443&secret=ee05cf8e164f926f4a664b2404d276a1d670726f78792e6e697a79612e636c7562 ru
 tg://proxy?server=irogallery.golgoli1.co.uk&port=2096&secret=79e344818749bd7ac519130220c25d09 ⭐
 tg://proxy?server=hapoo.nanaz.co.uk&port=8443&secret=EERighJJvXrFGRMCIMJdCQ ⭐
