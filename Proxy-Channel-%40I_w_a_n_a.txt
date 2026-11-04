@@ -1,3 +1,8 @@
+tg://proxy?server=89u9.masi.ir.he6fhd.ru&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=22y72.ir.ir.ir.meli-n12.info&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=3gy733g.ir.meli-n13.info&port=8443&secret=104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=dip00001.ir.ir.ir.meli-n12.info&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=hasi.ir.meli-n13.info&port=8443&secret=104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=dns.anton-and-alyona.click&port=443&secret=ee3404630470c2a08cdaff09293f73069d646e732e616e746f6e2d616e642d616c796f6e612e636c69636b ru
 tg://proxy?server=dns.speed-benz.co.uk&port=8443&secret=79e344818749bd7ac519130220c25d09 ⭐
 tg://proxy?server=208.87.242.223&port=8443&secret=104462821249bd7ac519130220c8dd09 ⭐
