@@ -1,0 +1,1 @@
+vless://9d76a2d3-4b33-5f1f-8a96-edbf46013941@telegram-id-conf0088.juk.fi:2083?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=1&fp=chrome&type=ws&allowInsecure=1#Iran%20%F0%9F%A6%81
