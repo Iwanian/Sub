@@ -1,3 +1,4 @@
+tg://proxy?server=dashi.estabonita.co.uk&port=8443&secret=EERighJJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=157.173.16.49&port=443&secret=06233b1831a19a98554a06e84a4a1c9f ⭐
 tg://proxy?server=gole-man.naaab.lol&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=188.40.198.227&port=8080&secret=f65cd7d721c5ffb50eeed2763759e949 ⭐
