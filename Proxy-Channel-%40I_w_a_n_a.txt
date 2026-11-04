@@ -1,3 +1,4 @@
+tg://proxy?server=212.87.199.110&port=2087&secret=864e3cdccba32eb5fb158f8730148907 ⭐
 tg://proxy?server=ir.strobox.info&port=443&secret=ddf0eeb0bd9adc4fd4a93994ee3b2a216b ru
 tg://proxy?server=ggyij118i9.masi.ir.he6fhd.ru&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=ggbuiui1g.ir.ir.ir.meli-n12.info&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
