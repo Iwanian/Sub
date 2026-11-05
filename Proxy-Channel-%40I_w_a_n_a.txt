@@ -1,3 +1,4 @@
+tg://proxy?server=worldmaster.varomax.co.uk.&port=5500&secret=eeRigzNJvXrFGRMCIMJdEA ⭐
 tg://proxy?server=www.cloudflare.maroochia.co.uk&port=443&secret=7l984oosSBbGySPf1NVjDgE= ⭐
 tg://proxy?server=manchester.goooalir.co.uk&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=eyiran33.suser.ir&port=2020&secret=AAAAAAAAAAAAAAAAAAAAAA%3D%3D ⭐
