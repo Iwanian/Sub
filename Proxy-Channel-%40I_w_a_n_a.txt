@@ -1,3 +1,7 @@
+tg://proxy?server=link.steampower.online&port=3864&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
+tg://proxy?server=switch.setado.co.uk&port=8880&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
+tg://proxy?server=Ay.pj.fon.7g.kp.v.i8.l.1-2-3-4-5.ir.&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
+tg://proxy?server=rad.irani-pr.net&port=85&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=isna.ir.asriran.com.varzesh3.com.yalandonyi.ir&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=eyiran35.suser.ir&port=2020&secret=AAAAAAAAAAAAAAAAAAAAAA%3D%3D ⭐
 tg://proxy?server=partnerupload.steampower.online&port=3864&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
