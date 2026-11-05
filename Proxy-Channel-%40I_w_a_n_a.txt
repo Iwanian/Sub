@@ -1,3 +1,8 @@
+tg://proxy?server=teranhavaei.charkhofalak.info.&port=7799&secret=dd10400103324995b07c030386e886e7f1 ⭐
+tg://proxy?server=ir.ariely.info&port=8443&secret=EERighJJvXrFGRMCIMjdCQ ⭐
+tg://proxy?server=panel.hook--tehran.co.uk.&port=443&secret=3RBEYoISSb16xRkTAiDCXQk%3D ⭐
+tg://proxy?server=www.manazinjamiram.ir.&port=8443&secret=3WMho4GHSV36xZoDAiDCXY4AAq5W5G55ZWt0YW5ldC5jb21mYXJheqF2LmNvbXZhbi5uYWp2YS5jb20AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA ⭐
+tg://proxy?server=web.mangoseason7.co.uk&port=2096&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=dashi.estabonita.co.uk&port=8443&secret=EERighJJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=157.173.16.49&port=443&secret=06233b1831a19a98554a06e84a4a1c9f ⭐
 tg://proxy?server=gole-man.naaab.lol&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
