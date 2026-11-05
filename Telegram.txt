@@ -1,3 +1,4 @@
+vless://9a1de772-f8ff-f8b9-4aaa-b50c417144f5@core-323a0b-3ea6fc-production.up.railway.app:443?encryption=none&security=tls&type=ws&host=core-323a0b-3ea6fc-production.up.railway.app&path=/ws/9a1de772-f8ff-f8b9-4aaa-b50c417144f5&sni=core-323a0b-3ea6fc-production.up.railway.app&fp=chrome&alpn=http/1.1#-Zra-usa
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2R3pmZG1kMmN2eWUxcXlLb3ViOUU3ZVdpak1EUjJsSw%3D%3D@dns27.m3hrzd.ir:1353#100%DA%AF%DB%8C%DA%AF%20%D9%81%D9%82%D8%B7%2099%D8%AA%D9%88%D9%85%D9%86%3A%20%40mvn_vpn%20%F0%9F%92%9A
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M%3D@37.19.198.244:443#100%DA%AF%DB%8C%DA%AF%20%D9%81%D9%82%D8%B7%2099%D8%AA%D9%88%D9%85%D9%86%3A%20%40mvn_vpn%20%F0%9F%92%9A
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M%3D@156.146.38.169:443#100%DA%AF%DB%8C%DA%AF%20%D9%81%D9%82%D8%B7%2099%D8%AA%D9%88%D9%85%D9%86%3A%20%40mvn_vpn%20%F0%9F%92%9A
