@@ -1,3 +1,5 @@
+tg://proxy?server=s4.zentnetwork.xyz&port=853&secret=7jPZCakf82Lgd43TljG4N9tzMS56ZW50bmV0d29yay54eXo ru
+tg://proxy?server=s4.zentconnect.xyz&port=853&secret=7uVtKuCy6tRJSvU7EIZdrWRzMS56ZW50Y29ubmVjdC54eXo ru
 tg://proxy?server=boro.poolaki.co.uk&port=8443&secret=EERighJJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=refiq.poolaki.co.uk&port=8443&secret=EERighJJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=yek.anotelinopalk.co.uk&port=8880&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
