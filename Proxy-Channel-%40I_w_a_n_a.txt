@@ -1,3 +1,4 @@
+tg://proxy?server=petros-es.co.uk.&port=443&secret=ee79e344818749bd7ac519130220c25d09706574726f732d65732e636f2e756b ⭐
 tg://proxy?server=ir.engematica.info&port=8443&secret=EERighJJvXrFGRMCIMjdCQ ⭐
 tg://proxy?server=1.fulle7.info&port=8443&secret=EERighJJvXrFGRMCIMJdCQ%3D%3D ⭐
 tg://proxy?server=messi.nisti.co.uk&port=8880&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
