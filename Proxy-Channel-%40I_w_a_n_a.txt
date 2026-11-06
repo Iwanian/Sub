@@ -1,3 +1,4 @@
+tg://proxy?server=spruce.managementfyp.homes&port=2053&secret=eezeWOK8Zz_XDSK3jlI0bw ⭐
 tg://proxy?server=posude79.fernlark.xyz&port=443&secret=ee37a60897c9ca648e94350eb8919ea47f706f7375646537392e6665726e6c61726b2e78797a ru
 tg://proxy?server=felan-by.lolauth.info&port=8443&secret=1603010200010001fc030386e24c3add ⭐
 tg://proxy?server=gardeshgar.miandoabs.info&port=8443&secret=1603010200010001fc030386e24c3add ⭐
