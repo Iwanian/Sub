@@ -1,3 +1,4 @@
+tg://proxy?server=premium.speed-benz.co.uk&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=new2.lambforkebeb.co.uk&port=2096&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=45.195.250.70&port=443&secret=ddb83572a117470fd34eee07134d361f0b ⭐
 tg://proxy?server=worldmaster.varomax.co.uk.&port=5500&secret=eeRigzNJvXrFGRMCIMJdEA ⭐
