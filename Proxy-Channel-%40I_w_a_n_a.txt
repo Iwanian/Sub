@@ -1,3 +1,6 @@
+tg://proxy?server=009.masi.ir.he6fhd.ru&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=002.ir.ir.ir.meli-n12.info&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=56g.ir.meli-n13.info&port=8443&secret=104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=mt3.leeroy.uz&port=443&secret=eede199cd5cc7674e522ef10f4359224d36d2e6265626f6f2e7275 ru
 tg://proxy?server=mt1.leeroy.uz&port=443&secret=eede199cd5cc7674e522ef10f4359224d36d2e6265626f6f2e7275 ru
 tg://proxy?server=ir-ir.makkers.co.uk&port=8443&secret=EERighJJvXrFGRMCIMjdCQ ⭐
