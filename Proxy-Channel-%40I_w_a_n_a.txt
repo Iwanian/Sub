@@ -1,3 +1,6 @@
+tg://proxy?server=royaclinic.co.uk&port=4455&secret=dd104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=irluxcars.site&port=4455&secret=dd104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=royaclinic.beauty&port=4455&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=93.113.230.145&port=912&secret=ArGwwI4DFrWvCT5RGmtOVA ⭐
 tg://proxy?server=larch.managementfyp.homes&port=8443&secret=ee2516a58b478835fa49d8c27674e9a2c37777772e6d6963726f736f66742e636f6d ⭐
 tg://proxy?server=pine.managementfyp.homes&port=8443&secret=2cd5b87b443afd12a519e81b6601ce13 ⭐
