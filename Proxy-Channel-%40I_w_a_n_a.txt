@@ -1,3 +1,5 @@
+tg://proxy?server=irl.firemedia.digital&port=443&secret=eeadd144b0531c1a9f5947e3cb29dc4fd569726c2e666972656d656469612e6469676974616c ru
+tg://proxy?server=138.201.157.70&port=443&secret=YyEEgYdJXfrFmgMCIMJdjjRueWVrdGFuZXQA ⭐
 tg://proxy?server=Dho.phd.iv.md.h.g.if.7.www1www.ir.&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=46.225.253.114&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=royaclinic.co.uk&port=4455&secret=dd104462821249bd7ac519130220c25d09 ⭐
