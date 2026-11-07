@@ -1,3 +1,4 @@
+tg://proxy?server=elm.managementfyp.homes&port=443&secret=ee9d88d6cc8be0a021ac8ef1e9b1a95db27777772e6d6963726f736f66742e636f6d ⭐
 tg://proxy?server=144.76.87.43&port=25592&secret=eed578730418a2f69e9b0aa0b265ce11c37777772e636c6f7564666c6172652e636f6d ⭐
 tg://proxy?server=iranmaster27.suser.ir&port=2020&secret=00000000000000000000000000000000 ⭐
 tg://proxy?server=forums.steampower.online&port=3864&secret=79e344818749bd7ac519130220c25d09 ⭐
