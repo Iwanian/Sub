@@ -1,3 +1,4 @@
+tg://proxy?server=Tond.strobox.info&port=443&secret=ddf0eeb0bd9adc4fd4a93994ee3b2a216b ru
 tg://proxy?server=194.60.228.11&port=2053&secret=dd79e344818749bd7ac519130220c25d09 ⭐
 tg://proxy?server=194.60.228.66&port=8880&secret=79e344818749bd7ac519130220c25d09 ⭐
 tg://proxy?server=168.113.215.75&port=443&secret=1ebcd2a01a85039bb749e056116e51cf ⭐
