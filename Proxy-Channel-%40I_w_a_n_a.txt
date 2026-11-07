@@ -1,3 +1,5 @@
+tg://proxy?server=Ve.pd.8f.dp.g.st.48-59-27-52.ir.&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
+tg://proxy?server=Png.lgi.cfe.8vr.xj.f8.b.128-273-66.ir.&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=Fud.fo.5n.fod.8h.zj.l.shipboard.ir.&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=172.65.119.133&port=25565&secret=ee104462821249bd7ac519130220c25d0963646e2e79656b74616e65742e636f6d ⭐
 tg://proxy?server=3.149.86.139&port=8443&secret=ee7f19d4230173736615aca50d4a67aeaa7370656564746573742e6e6574 ⭐
