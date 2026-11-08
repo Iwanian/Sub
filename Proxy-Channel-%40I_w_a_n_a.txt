@@ -1,3 +1,5 @@
+tg://proxy?server=780.df.yayayajd.co.uk&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=loveyou.jojeh.info&port=911&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=sepknown.seyhello.my.id&port=8787&secret=dd851ee8e350fae8b0cf79a81d7f031980 ⭐
 tg://proxy?server=sepknown.seyhello.my.id&port=8787&secret=ee851ee8e350fae8b0cf79a81d7f031980 ⭐
 tg://proxy?server=sepknown.seyhello.my.id&port=8787&secret=851ee8e350fae8b0cf79a81d7f031980 ⭐
