@@ -1,3 +1,4 @@
+tg://proxy?server=Su.do.hs5.pr.u.9j.uwww.ir.&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=team.fast--pro.co.uk.&port=443&secret=3RBEYoISSb16xRkTAiDCXQk%3D ⭐
 tg://proxy?server=Su.do.hs5.pr.u.9j.uwww.ir.&port=8443&secret=eeNEgYdJvXrFGRMCIMJdC ⭐
 tg://proxy?server=gram.blog&port=853&secret=ee695c0e4188358e4ebb6d7a489185f6a96d742e6772616d2e796f75 ru
