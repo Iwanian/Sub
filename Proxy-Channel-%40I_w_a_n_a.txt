@@ -1,3 +1,4 @@
+tg://proxy?server=ir.strobox.info&port=443&secret=ddf0eeb0bd9adc4fd4a93994ee3b2a216b ⭐
 tg://proxy?server=SILVER.goooalir.co.uk&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=780.df.yayayajd.co.uk&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=loveyou.jojeh.info&port=911&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
