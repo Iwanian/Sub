@@ -1,3 +1,5 @@
+tg://proxy?port=29215&secret=ee64256f87ae8b037e13f4e0c621806def7777772e636c6f7564666c6172652e636f6d&server=online.shop.ir.eeso.cc ⭐
+tg://proxy?server=185.166.214.158&port=8443&secret=7n3yZ_5IshU33VFu-RJW7fZ3d3cuYXBwbGUuY29t ⭐
 tg://proxy?server=47399.masi.ir.he6fhd.ru&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=472g.ir.ir.ir.meli-n12.info&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=182yg.ir.meli-n13.info&port=8443&secret=104462821249bd7ac519130220c25d09 ⭐
