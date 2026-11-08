@@ -1,3 +1,4 @@
+tg://proxy?server=gram.blog&port=853&secret=ee695c0e4188358e4ebb6d7a489185f6a96d742e6772616d2e796f75 ru
 tg://proxy?server=haf.anotelinopalk.co.uk&port=8880&secret=79e344818749bd7ac519130220c25d09 ⭐
 tg://proxy?server=910i9.masi.ir.he6fhd.ru&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=372dhg.ir.ir.ir.meli-n12.info&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
