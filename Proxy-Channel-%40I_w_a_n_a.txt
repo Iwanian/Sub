@@ -1,3 +1,12 @@
+tg://proxy?server=sepknown.seyhello.my.id&port=8787&secret=dd851ee8e350fae8b0cf79a81d7f031980 ⭐
+tg://proxy?server=sepknown.seyhello.my.id&port=8787&secret=ee851ee8e350fae8b0cf79a81d7f031980 ⭐
+tg://proxy?server=sepknown.seyhello.my.id&port=8787&secret=851ee8e350fae8b0cf79a81d7f031980 ⭐
+tg://proxy?server=shsh.anotelinopalk.co.uk&port=8880&secret=79e344818749bd7ac519130220c25d09 ⭐
+tg://proxy?server=my.soft98.co.uk&port=8443&secret=79e344818749bd7ac519130220c25d09 ⭐
+tg://proxy?server=jhndoes.co.uk.&port=8443&secret=79e344818749bd7ac519130220c25d09 ⭐
+tg://proxy?server=168.119.142.46&port=443&secret=dd79e7010200010007f0030386e24c3add ⭐
+tg://proxy?server=honar.saheledarya.co.uk.&port=8443&secret=79e344818749bd7ac519130220c25d09 ⭐
+tg://proxy?server=ir.xeonxu.info&port=8443&secret=104462821249bd7ac519130220c8dd09 ⭐
 tg://proxy?server=Su.do.hs5.pr.u.9j.uwww.ir.&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=team.fast--pro.co.uk.&port=443&secret=3RBEYoISSb16xRkTAiDCXQk%3D ⭐
 tg://proxy?server=Su.do.hs5.pr.u.9j.uwww.ir.&port=8443&secret=eeNEgYdJvXrFGRMCIMJdC ⭐
