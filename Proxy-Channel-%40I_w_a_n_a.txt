@@ -1,3 +1,4 @@
+tg://proxy?server=coinvpnpro.duckdns.org&port=443&secret=ee3c23bf23e13aff489d37ab8181e48144636f696e76706e70726f2e6475636b646e732e6f7267 ru
 tg://proxy?server=shomal.bingi.co.uk&port=8443&secret=104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=vasalshim.mamadgoli.co.uk&port=4455&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=kasco.alhosein.co.uk&port=4455&secret=dd104462821249bd7ac519130220c25d09 ⭐
