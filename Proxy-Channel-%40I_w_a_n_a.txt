@@ -1,3 +1,14 @@
+tg://proxy?server=permiiium.lavazemi2.co.uk&port=2096&secret=7hYDAQIAAQAB_AMDhuJMOt13d3cueWFob28uY29t ⭐
+tg://proxy?server=blue.golgoli2.co.uk&port=2096&secret=7hYDAQIAAQAB_AMDhuJMOt13d3cueWFob28uY29t ⭐
+tg://proxy?server=bale.foltmeingop.co.uk&port=8880&secret=79e344818749bd7ac519130220c25d09 ⭐
+tg://proxy?server=dokhtar.nanaz.co.uk&port=8443&secret=104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=ir.gnutella2.info&port=8443&secret=104462821249bd7ac519130220c8dd09 ⭐
+tg://proxy?server=95.217.193.223&port=443&secret=dd79e7010200010007f0030386e24c3add ⭐
+tg://proxy?server=noh.anotelinopalk.co.uk&port=8880&secret=79e344818749bd7ac519130220c25d09 ⭐
+tg://proxy?server=digi.golgoli2.co.uk&port=2096&secret=79e344818749bd7ac519130220c25d09 ⭐
+tg://proxy?server=fruit.golgoli2.co.uk&port=2096&secret=79e344818749bd7ac519130220c25d09 ⭐
+tg://proxy?server=nigan.goooalir.co.uk&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=aparat.com.filimo.com.namava.ir.telewebion.com.ghoostbusters.ir&port=8443&secret=79e344818749bd7ac519130220c25d09 ⭐
 tg://proxy?port=29215&secret=ee64256f87ae8b037e13f4e0c621806def7777772e636c6f7564666c6172652e636f6d&server=online.shop.ir.eeso.cc ⭐
 tg://proxy?server=185.166.214.158&port=8443&secret=7n3yZ_5IshU33VFu-RJW7fZ3d3cuYXBwbGUuY29t ⭐
 tg://proxy?server=47399.masi.ir.he6fhd.ru&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
