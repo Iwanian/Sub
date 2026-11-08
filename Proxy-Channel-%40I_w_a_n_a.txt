@@ -1,3 +1,7 @@
+tg://proxy?server=87.248.129.101&port=8443&secret=ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d ⭐
+tg://proxy?server=talfighi.barekatbashe.info&port=8443&secret=1603010200010001fc030386e24c3add ⭐
+tg://proxy?server=14.ir.meli-n13.info&port=8443&secret=104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=Suodbo.co.uk.&port=443&secret=eef0eeb0bd9adc4fd4a93994ee3b2a216b63646e2e79656b74616e65742e636f6d ⭐
 tg://proxy?server=sv4.hajhossein.observer&port=443&secret=ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d ⭐
 tg://proxy?server=run.golgoli2.co.uk&port=2053&secret=79e344818749bd7ac519130220c25d09 ⭐
 tg://proxy?server=iro.varfootball2.co.uk&port=2053&secret=79e344818749bd7ac519130220c25d09 ⭐
