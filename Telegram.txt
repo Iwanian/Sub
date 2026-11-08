@@ -1,3 +1,5 @@
+trojan://MiTiVPN@146.75.57.7:443?path=%2F---%40MiTiVPN---%40MiTiVPN&security=tls&alpn=http%2F1.1&insecure=1&host=MiTiVPN-1-mitivpn.ac.ir&fp=chrome&type=ws&allowInsecure=1&sni=cdn.akamai.steamstatic.com#%40SIL3NTVPN
+vless://60a1a2e5-384e-40e3-9b98-42911c87a869@f1.greewebservices.ir:443?mode=auto&path=%2F&security=tls&alpn=h2&encryption=mlkem768x25519plus.native.0rtt.rFneV8tfiQKaFPRH35b89SS814lR25gRvTLChkKxjgs&insecure=1&host=Gently-crystal-seahorse-abalone.global.ssl.fastly.net&fp=firefox&type=xhttp&allowInsecure=1&sni=cdn.akamai.steamstatic.com#%40SIL3NTVPN
 vless://97fafc40-cdd3-40ab-a22e-abf3a87513bf@Info-panel.ir:4107?type=tcp&security=none&encryption=none#Premium_Config_1+%F0%9F%92%8E+%7C+Serv...%40%F0%9F%92%8E
 vless://97fafc40-cdd3-40ab-a22e-abf3a87513bf@update.sub:4107?type=tcp&security=none&encryption=none#Premium_Config_2+%F0%9F%92%8E+%7C+Serv...%40%F0%9F%92%8E
 vless://97fafc40-cdd3-40ab-a22e-abf3a87513bf@ss.ie:4107?type=tcp&security=none&encryption=none#Premium_Config_3+%F0%9F%92%8E+%7C+Serv...%40%F0%9F%92%8E
