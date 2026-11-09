@@ -1,3 +1,5 @@
+tg://proxy?server=Mr.ps.u6.goh.ic.m.99-99-63-75.ir.&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
+tg://proxy?server=6h.pe.3.fi.u.fp.66-84-5-947.ir.&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=koko.ir.meli-n13.info&port=8443&secret=104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=65.21.83.228&port=443&secret=dd79e7010200010007f0030386e24c3add ⭐
 tg://proxy?server=dokhtar.kocholo.co.uk&port=443&secret=79e344818749bd7ac519130220c25d09 ⭐
