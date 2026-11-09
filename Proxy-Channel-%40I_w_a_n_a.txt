@@ -1,3 +1,9 @@
+tg://proxy?server=storagexx.space&port=443&secret=ee24b61556a3ec49bc0c7a5a7e8525702873746f7261676578782e7370616365 ru
+tg://proxy?server=xxmatrixx.top&port=853&secret=eee4508d288bf81791177a2f5e73ac06cf6d617472697878782e746f70 ru
+tg://proxy?server=188.245.207.66&port=9443&secret=YyEEgYdJXfrFmgMCIMJdjjRueWVrdGFuZXQA ⭐
+tg://proxy?server=ir.simpleelegance-us.info&port=8443&secret=EERighJJvXrFGRMCIMjdCQ ⭐
+tg://proxy?server=panir.begir.co.uk&port=8443&secret=EERighJJvXrFGRMCIMJdCQ ⭐
+tg://proxy?server=ay.havaar.naaab.lol&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=178.105.222.89&port=8443&secret=1603010200010001fc030386e24c3add ⭐
 tg://proxy?server=178.105.233.73&port=8443&secret=104462821249bd7ac519130220c8dd09 ⭐
 tg://proxy?server=n210bbb.lumenpost.top&port=443&secret=ee0b03536395a48484bf73aadee0e37dd46d2e6c756d656e706f73742e746f70 ru
