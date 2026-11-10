@@ -1,3 +1,4 @@
+tg://proxy?server=xe1rn.proxydazhenaparkovke.site&port=443&secret=ee4a26ea6bb803e4d556b56178d75a0889786531726e2e70726f787964617a68656e617061726b6f766b652e73697465 ru
 tg://proxy?server=at.elitev2.ir&port=9443&secret=ddbd0bc23c4fe1817d4891a48fbcd9e7d8 ⭐
 tg://proxy?server=fol-tarine-iran.207-pana.ir&port=2020&secret=AAAAAAAAAAAAAAAAAAAAAA%3D%3D ⭐
 tg://proxy?server=blue.golgoli2.co.uk&port=2096&secret=ee1603010200010001fc030386e24c3add7777772e7961686f6f2e636f6d ⭐
