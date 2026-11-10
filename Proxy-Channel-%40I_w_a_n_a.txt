@@ -1,3 +1,4 @@
+tg://proxy?server=194.120.230.106&port=443&secret=3XnnAQIAAQAH8AMDhuJMOt0 ⭐
 tg://proxy?server=AVA.goooalir.co.uk&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=xe1rn.proxydazhenaparkovke.site&port=443&secret=ee4a26ea6bb803e4d556b56178d75a0889786531726e2e70726f787964617a68656e617061726b6f766b652e73697465 ru
 tg://proxy?server=at.elitev2.ir&port=9443&secret=ddbd0bc23c4fe1817d4891a48fbcd9e7d8 ⭐
