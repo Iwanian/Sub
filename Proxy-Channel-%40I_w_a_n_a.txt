@@ -1,3 +1,4 @@
+tg://proxy?server=7hd78fr.ir.ir.ir.meli-n12.info&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=37.152.191.113&port=32659&secret=96b83da6cdb75c3c0e7da9c2a10b7e31 ⭐
 tg://proxy?server=bazar.jojeh.info&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=194.120.230.106&port=443&secret=3XnnAQIAAQAH8AMDhuJMOt0 ⭐
