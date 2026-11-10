@@ -1,3 +1,4 @@
+tg://proxy?server=narooo.goooalir.co.uk&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=sukapo16.foxglade.xyz&port=8443&secret=ee0fde41eb62ad6ce7e55c5d018a87732e706574726f766963682e7275 ru
 tg://proxy?server=lolole47.tidelark.cc&port=443&secret=ee39c068a9eef03a858d82c840c0b3728b706574726f766963682e7275 ru
 tg://proxy?server=cdnir.mosiplays2.isroot.in&port=32659&secret=96b83da6cdb75c3c0e7da9c2a10b7e31 ⭐
