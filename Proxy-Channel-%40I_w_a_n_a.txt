@@ -1,3 +1,4 @@
+tg://proxy?server=forums.steampower.online&port=3864&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=Tond.strobox.info&port=443&secret=ddf0eeb0bd9adc4fd4a93994ee3b2a216b ⭐
 tg://proxy?port=8443&secret=ee14e84a19844170f160a342c2d08302d6626c6f672e6972&server=16.171.235.10 ⭐
 tg://proxy?server=narooo.goooalir.co.uk&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
