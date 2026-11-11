@@ -1,3 +1,9 @@
+tg://proxy?server=lonezo26.saltfern.xyz&port=8443&secret=eeec569fca8169b57457c573b55bbaa8ec706574726f766963682e7275 ru
+tg://proxy?server=mapo12.tidalbirch.sbs&port=443&secret=eec351e909bc2939e1ca4fbcc6b762a1bd786170692e6f7a6f6e2e7275 ru
+tg://proxy?server=host.white-dns.info&port=443&secret=ee3e85aac6e7bcc0ba3847479bff8ef2a4 ⭐
+tg://proxy?server=host.dnsrender.info&port=443&secret=ee3e85aac6e7bcc0ba3847479bff8ef2a4 ⭐
+tg://proxy?server=11fk89.masi.ir.he6fhd.ru&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=plus.geo-cdn.ru&port=443&secret=ee3e85aac6e7bcc0ba3847479bff8ef2a4 ⭐
 tg://proxy?server=tm.mosibat.in&port=45745&secret=67c3d2dc3b106f273c7afd103d441041 ⭐
 tg://proxy?server=forums.steampower.online&port=3864&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=Tond.strobox.info&port=443&secret=ddf0eeb0bd9adc4fd4a93994ee3b2a216b ⭐
