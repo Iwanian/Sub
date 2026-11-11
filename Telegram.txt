@@ -239,4 +239,3 @@ vless://a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a@tg.riotvpn.eu:443?security=reality&
 ss://YWVzLTI1Ni1nY206RkpvX1YtS012cmlEZWtOMENZa2ROSDBD@177.202.64.67:1080#100%DA%AF%DB%8C%DA%AF%20%D9%81%D9%82%D8%B7%2099%D8%AA%D9%88%D9%85%D9%86%3A%20%40mvn_vpn%20%F0%9F%92%9A
 ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@57.129.83.85:19999#France
 ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@149.40.57.135:19999#United%20States
-vless://81be1b4f-3be5-43ca-8e85-13a01164493c.2freenet.ddns.info:2083?path=%2Fwp-admin.php%3FTELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM%3Fed%3D2083&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=my.nila-services.top&fp=firefox&type=ws&allowInsecure=0&sni=my.nila-services.top#%40B2Hub
