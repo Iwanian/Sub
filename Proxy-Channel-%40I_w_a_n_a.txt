@@ -1,3 +1,4 @@
+tg://proxy?server=heay.ajjab.co.uk&port=8880&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=ui.geodns.info.&port=4455&secret=7nnjRIGHSb16xRkTAiDCXQk%3D ⭐
 tg://proxy?port=13513&secret=ee8054fff39047f9d398a944ce85e880517777772e7961686f6f2e636f6d&server=mahan.drag0n.ir ⭐
 tg://proxy?server=yydwb.proxytg.fit&port=443&secret=eee10c45d4bea31923b7540545f769af3b79796477622e70726f787974672e666974 ru
