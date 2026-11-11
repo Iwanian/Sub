@@ -1,3 +1,4 @@
+tg://proxy?server=tm.mosibat.in&port=45745&secret=67c3d2dc3b106f273c7afd103d441041 ⭐
 tg://proxy?server=forums.steampower.online&port=3864&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=Tond.strobox.info&port=443&secret=ddf0eeb0bd9adc4fd4a93994ee3b2a216b ⭐
 tg://proxy?port=8443&secret=ee14e84a19844170f160a342c2d08302d6626c6f672e6972&server=16.171.235.10 ⭐
