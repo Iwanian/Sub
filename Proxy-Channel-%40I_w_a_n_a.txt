@@ -1,3 +1,5 @@
+tg://proxy?server=dezori37.quietfjord.click&port=443&secret=eed445782cb1e82ad1cf49a53db0ec0ced786170692e6f7a6f6e2e7275 ru
+tg://proxy?server=razora52.fernlark.xyz&port=8443&secret=ee88520a4798e086857d87fd444d0b4ab4706574726f766963682e7275 ru
 tg://proxy?server=heay.ajjab.co.uk&port=8880&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=ui.geodns.info.&port=4455&secret=7nnjRIGHSb16xRkTAiDCXQk%3D ⭐
 tg://proxy?port=13513&secret=ee8054fff39047f9d398a944ce85e880517777772e7961686f6f2e636f6d&server=mahan.drag0n.ir ⭐
