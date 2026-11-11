@@ -1,3 +1,4 @@
+tg://proxy?server=power.naaab.lol&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=puot.mozitop.co.uk&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ ru
 tg://proxy?server=avangard.pareporeh.info.&port=5500&secret=7HQighJPBNMYVRNB6tdkVw ⭐
 tg://proxy?server=mitoka72.tidelark.cc&port=8443&secret=ee133b6403cdfe6f1fbc309e704c14f2fc786170692e6f7a6f6e2e7275 ru
