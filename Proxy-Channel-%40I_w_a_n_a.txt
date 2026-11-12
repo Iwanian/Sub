@@ -1,3 +1,5 @@
+tg://proxy?server=7613.masi.ir.he6fhd.ru&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=fast.strobox.info&port=443&secret=ddf0eeb0bd9adc4fd4a93994ee3b2a216b ⭐
 tg://proxy?server=good.cipservice.co.uk&port=2083&secret=79e344818749bd7ac519130220c25d09 ⭐
 tg://proxy?port=8443&secret=ee8e2e0a52a6da3f889c8a72b8ea750bfa7777772e636c6f7564666c6172652e636f6d&server=167.233.144.39 ⭐
 tg://proxy?server=46.225.148.183&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
