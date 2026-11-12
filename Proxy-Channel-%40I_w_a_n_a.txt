@@ -1,3 +1,5 @@
+tg://proxy?server=212.108.98.97.suser.ir&port=2020&secret=AAAAAAAAAAAAAAAAAAAAAA%3D%3D ⭐
+tg://proxy?server=212.108.98.96.suser.ir&port=2020&secret=AAAAAAAAAAAAAAAAAAAAAA%3D%3D ⭐
 tg://proxy?server=MAP.cooptoop.site.&port=443&secret=3RBEYoISSb16xRkTAiDCXQk%3D ⭐
 tg://proxy?server=91.107.244.157&port=23064&secret=6ec09b67a2232109ffa7261bff9ea5c3 ⭐
 tg://proxy?server=tg.getrocket.me&port=443&secret=eef84b5bf22712eba2c12b8c0582237add74672e676574726f636b65742e6d65 ru
