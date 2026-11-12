@@ -1,3 +1,4 @@
+tg://proxy?server=tg.getrocket.me&port=443&secret=eef84b5bf22712eba2c12b8c0582237add74672e676574726f636b65742e6d65 ru
 tg://proxy?server=proxy.gocdn-prime.ir&port=41816&secret=82f1ed94476a3948772eae5db8ea9646 ⭐
 tg://proxy?server=49.13.7.180&port=443&secret=YyEEgYdJXfrFmgMCIMJdjjRueWVrdGFuZXQA ⭐
 tg://proxy?server=proxy-cf1f540c.abaszadeh.cc&port=24443&secret=b23e8e3349282c01c4695763626670e2 ⭐
