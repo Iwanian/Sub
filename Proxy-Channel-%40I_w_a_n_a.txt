@@ -1,3 +1,7 @@
+tg://proxy?server=46.225.148.183&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=194.120.230.120&port=443&secret=3XnnAQIAAQAH8AMDhuJMOt0 ⭐
+tg://proxy?server=172.65.39.222&port=131515&secret=ee09db815a6d82a31fda76f872230c69d76170617261742e636f6d ⭐
+tg://proxy?server=65.109.98.231&port=443&secret=3XnnAQIAAQAH8AMDhuJMOt0 ⭐
 tg://proxy?server=khare-gol.golabkashan.info&port=8443&secret=1603010200010001fc030386e24c3add ⭐
 tg://proxy?server=letsgo.sinlx.ir.&port=8443&secret=3RBEYoISSb16xRkTAiDCXQk%3D ⭐
 tg://proxy?server=www.sinlx.ir.&port=8443&secret=3RBEYoISSb16xRkTAiDCXQk%3D ⭐
