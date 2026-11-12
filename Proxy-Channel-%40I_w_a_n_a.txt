@@ -1,3 +1,4 @@
+tg://proxy?server=37.27.141.177&port=25350&secret=ee93a407ba4239a5ac9b9ae59bb6e376b47777772e636c6f7564666c6172652e636f6d ⭐
 tg://proxy?server=vase-hamas.ir.kjhsdjhads.info&port=7443&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=21.df.yayayajd.co.uk&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=bastani.mikhay.co.uk&port=8443&secret=EERighJJvXrFGRMCIMJdCQ ⭐
