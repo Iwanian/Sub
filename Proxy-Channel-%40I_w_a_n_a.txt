@@ -1,3 +1,4 @@
+tg://proxy?server=4x4.subaru-volga.com&port=443&secret=ee54701e1686de96a44721501a7bee9e4c6c796e657474652e6d79726b612e6469676974616c ru
 tg://proxy?server=195.201.20.237&port=443&secret=EE5f7ce28a2c4816c6c923dfd4d5630e01 ⭐
 tg://proxy?server=www.cloudflare.com.coldkeyw.co.uk&port=443&secret=dd5f7ce28a2c4816c6c923dfd4d5630e01 ⭐
 tg://proxy?server=cloudflare.irnick.com.coldkeyw.co.uk&port=443&secret=ee5f7ce28a2c4816c6c923dfd4d5630e01 ⭐
