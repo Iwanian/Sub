@@ -1,3 +1,5 @@
+tg://proxy?server=xk4.p9.vzt.m.2e.hq.w.roseprox.xyz&port=5443&secret=eeNcH6iy2U4Htjocj0Atng ⭐
+tg://proxy?server=arvan.cloud.w.downloder.co.uk&port=8443&secret=7l984oosSBbGySPf1NVjDgE= ⭐
 tg://proxy?server=gole-sorati.golabkashan.info&port=8443&secret=1603010200010001fc030386e24c3add ⭐
 tg://proxy?server=dokhtar.nanaz.co.uk&port=8443&secret=EERighJJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=46.225.228.229&port=69&secret=eeQt8J7R28jCwkFJJVLgUA ⭐
