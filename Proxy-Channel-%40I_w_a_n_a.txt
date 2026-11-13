@@ -1,3 +1,9 @@
+tg://proxy?server=195.201.20.237&port=443&secret=EE5f7ce28a2c4816c6c923dfd4d5630e01 ⭐
+tg://proxy?server=www.cloudflare.com.coldkeyw.co.uk&port=443&secret=dd5f7ce28a2c4816c6c923dfd4d5630e01 ⭐
+tg://proxy?server=cloudflare.irnick.com.coldkeyw.co.uk&port=443&secret=ee5f7ce28a2c4816c6c923dfd4d5630e01 ⭐
+tg://proxy?server=shop.onlin.coldkeyw.co.uk&port=443&secret=dd5f7ce28a2c4816c6c923dfd4d5630e01 ⭐
+tg://proxy?server=shop.onlin.coldkeyw.co.uk7cloudflare.dash.com.coldkeyw.co.uk&port=443&secret=ee5f7ce28a2c4816c6c923dfd4d5630e01 ⭐
+tg://proxy?server=bank.meli.com.cloud.coldkeyw.co.uk&port=443&secret=dd5f7ce28a2c4816c6c923dfd4d5630e01 ⭐
 tg://proxy?server=v4c2w.proxydazhenaparkovke.site&port=443&secret=eead68fade400c2e0cb6c663196bc65e4276346332772e70726f787964617a68656e617061726b6f766b652e73697465 ru
 tg://proxy?server=xk4.p9.vzt.m.2e.hq.w.roseprox.xyz&port=5443&secret=eeNcH6iy2U4Htjocj0Atng ⭐
 tg://proxy?server=arvan.cloud.w.downloder.co.uk&port=8443&secret=7l984oosSBbGySPf1NVjDgE= ⭐
