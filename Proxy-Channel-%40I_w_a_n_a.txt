@@ -1,3 +1,4 @@
+tg://proxy?server=nv.masi.ir.he6fhd.ru&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=webfast.salahodine.ir&port=8880&secret=yalda.az.belaki.darar ⭐
 tg://proxy?server=www.yaho.com.maroochia.co.uk&port=443&secret=dd5f7ce28a2c4816c6c923dfd4d5630e01ddddddd ⭐
 tg://proxy?server=zone88.sorrelbay.xyz&port=8443&secret=ee0a717e9ba394eff63a9943ff11493cc2706574726f766963682e7275 ru
