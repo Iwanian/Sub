@@ -1,3 +1,4 @@
+tg://proxy?server=www.yaho.com.maroochia.co.uk&port=443&secret=dd5f7ce28a2c4816c6c923dfd4d5630e01ddddddd ⭐
 tg://proxy?server=zone88.sorrelbay.xyz&port=8443&secret=ee0a717e9ba394eff63a9943ff11493cc2706574726f766963682e7275 ru
 tg://proxy?server=maraka16.ashwren.xyz&port=443&secret=ee912defad667a620d66dbf5fd0b2a1bcc62726f777365722e79616e6465782e7275 ru
 tg://proxy?server=s.zirolost.sbs&port=443&secret=eeb240204e298bb90cf169a65c7a1972727370656564746573742e6e6574 ⭐
