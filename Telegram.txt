@@ -265,8 +265,3 @@ vless://c6624b96-e346-490b-9145-74c2543a9483@140.245.62.225:36442?security=tls&e
 vless://57beeeb0-03fc-4fc9-94da-7604488a7134@doghkzf.zalolink.com:28675?security=reality&encryption=none&pbk=jgtiLXdCnQ9WRWMuu2gsuGQOQTCRZQpspnn228kjTSA&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=www.lamer.com.hk&sid=9a79807253c040#@Qara_atayi
 ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@167.88.63.39:19999#United%20States
 vless://FastKey_277376@72.56.247.153:8080?path=%2Fapi&security=none&encryption=none&host=google.com&type=ws#@llfreak
-vless://0f11b72f-1af1-4f0a-b992-87a8241d9213@srv21.buddygpt.ru:443?encryption=none&security=reality&sni=packages.gitlab.com&fp=firefox&pbk=YEyZf6GvVcUG2VJnxyWOJQd8_ORz0n8Tw8Hs417OPxo&sid=5b524cdb28b6824a&type=xhttp&mode=auto&path=%2Fassets%2F1117b6ce#🇩🇪All⁷
-vless://99c5b713-dedf-4a10-8070-916ff3f49b0e@162.159.198.1:443?encryption=none&security=tls&sni=fs.qicai99.com&fp=chrome&type=ws&host=fs.qicai99.com&path=%2Ffp%3Dchrome&headers=%7B%0A%20%20%22Host%22%3A%20%22fs.qicai99.com%22%0A%7D#🇩🇪All⁶
-ss://2022-blake3-chacha20-poly1305:8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=@18.196.82.94:443#🇩🇪All⁴
-vless://0026124d-6df2-4157-886b-491c4cdc7d6e@svrty.fars-remen.ir:8080?encryption=none&security=reality&sni=tgju.org&fp=firefox&pbk=oF1oqDphaud14nHcna8QOKpeQxk32E9uhHYSJFfLAWo&sid=d64d4284791187b9&type=tcp&headerType=none#🇩🇪All³
-vless://81d81baa-1450-4f1a-a152-82da8a2584ec@homestead-walloping.sports-streams.org:443?encryption=none&security=reality&sni=blog.worldoftanks.eu&fp=chrome&pbk=iQCvXMQZR-eT2MVmXP7c99cvcle22mVWuKem_345BWM&type=xhttp&mode=auto&host=blog.worldoftanks.eu&path=%2F#🇩🇪All²
