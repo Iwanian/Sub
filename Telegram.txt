@@ -266,5 +266,3 @@ vless://52a5a29f-c162-411a-8a37-a3f11b0dc537@9.163.235.73:2083?encryption=none&f
 vless://99c5b713-dedf-4a10-8070-916ff3f49b0e@188.114.99.137:8443?path=%252F&security=tls&encryption=none&insecure=0&host=fs.qicai99.com&fp=chrome&type=ws&allowInsecure=0&sni=fs.qicai99.com#@Qara_atayi
 vless://c6624b96-e346-490b-9145-74c2543a9483@140.245.62.225:36442?security=tls&encryption=none&insecure=0&headerType=none&fp=firefox&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=xjpp.zjlo.top#@Qara_atayi
 vless://57beeeb0-03fc-4fc9-94da-7604488a7134@doghkzf.zalolink.com:28675?security=reality&encryption=none&pbk=jgtiLXdCnQ9WRWMuu2gsuGQOQTCRZQpspnn228kjTSA&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=www.lamer.com.hk&sid=9a79807253c040#@Qara_atayi
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@167.88.63.39:19999#United%20States
-vless://FastKey_277376@72.56.247.153:8080?path=%2Fapi&security=none&encryption=none&host=google.com&type=ws#@llfreak
