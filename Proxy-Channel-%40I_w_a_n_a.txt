@@ -1,3 +1,7 @@
+tg://proxy?server=t4.myrka.digital&port=443&secret=ee1111222233334444555566667777888874342e6d79726b612e6469676974616c ru
+tg://proxy?server=barsik.subaru-volga.com&port=443&secret=ee04daa35f7150d1d16c43f270c26831086a61726b6f2e6d79726b612e6469676974616c ru
+tg://proxy?server=awd.subaru-volga.com&port=443&secret=ee54701e1686de96a44721501a7bee9e4c6c796e657474652e6d79726b612e6469676974616c ru
+tg://proxy?server=51.21.82.181.sslip.io&port=8443&secret=dd60917e77a2902115c36f96ebe2e2a0f3 ⭐
 tg://proxy?server=asp.shop.sadegh12.ir&port=9966&secret=936db087bec22afc83298b1235dde8e4 ⭐
 tg://proxy?server=91.99.81.215&port=8080&secret=YyEEgYdJXfrFmgMCIMJdjjRueWVrdGFuZXQA ⭐
 tg://proxy?server=shared3.ddproxy.xyz&port=443&secret=eedddddddddddddddddddddddddddddddd6d2e6265626f6f2e7275 ru
