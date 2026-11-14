@@ -1,3 +1,4 @@
+tg://proxy?server=31.57.185.114&port=2526&secret=eec6763bc47915355261eaab46a9c096097777772e636c6f7564666c6172652e636f6d ru
 tg://proxy?server=51.21.82.181.sslip.io&port=8443&secret=dd42baf6fe28128ca304e9d8620a3ce804 ⭐
 tg://proxy?server=194.120.230.37&port=443&secret=3XnnAQIAAQAH8AMDhuJMOt0 ⭐
 tg://proxy?server=167.233.108.67&port=443&secret=YyEEgYdJXfrFmgMCIMJdjjRueWVrdGFuZXQA ⭐
