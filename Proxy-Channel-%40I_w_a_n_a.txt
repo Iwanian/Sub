@@ -1,3 +1,4 @@
+tg://proxy?server=s.zirolost.sbs&port=443&secret=eeb240204e298bb90cf169a65c7a1972727370656564746573742e6e6574 ⭐
 tg://proxy?server=asp.shop.sadegh12.ir&port=9966&secret=ee936db087bec22afc83298b1235dde8e47777772e676f6f676c652e636f6d ⭐
 tg://proxy?server=asp.shop.sadegh12.ir&port=9966&secret=dd936db087bec22afc83298b1235dde8e4 ⭐
 tg://proxy?server=t4.myrka.digital&port=443&secret=ee1111222233334444555566667777888874342e6d79726b612e6469676974616c ru
