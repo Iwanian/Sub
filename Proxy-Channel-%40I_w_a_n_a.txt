@@ -1,3 +1,5 @@
+tg://proxy?server=new.vafadari.co.uk&port=2096&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
+tg://proxy?server=94.184.32.108.aprawood.ir&port=2020&secret=00000000000000000000000000000000 ⭐
 tg://proxy?server=pro.rocketpro.isroot.in&port=64953&secret=6e4c38e51df0ed03a32a340f709b899f ⭐
 tg://proxy?server=checkout.steampower.online&port=3864&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=au.telechatgram.in&port=8443&secret=ee93347c71bba50740c51ae7052ed6b9e3636c6f7564666c6172652e636f6d ru
