@@ -1,3 +1,5 @@
+tg://proxy?server=gamama22.sorrelbay.xyz&port=8443&secret=ee0a3c55c05f348a0fc2c17b373f9a91576f7a6f6e2e7275 ru
+tg://proxy?server=lole53.kelpmoor.xyz&port=443&secret=ee0a3c55c05f348a0fc2c17b373f9a9157786170692e6f7a6f6e2e7275 ru
 tg://proxy?server=zonyzo22.sorrelbay.xyz&port=8443&secret=ee0a3c55c05f348a0fc2c17b373f9a9157617669746f2e7275 ru
 tg://proxy?server=neka18.ashwren.xyz&port=443&secret=ee0a3c55c05f348a0fc2c17b373f9a9157786170692e6f7a6f6e2e7275 ru
 tg://proxy?server=93.113.230.145&port=443&secret=FASTooGmYdaaVxJpA0SkKQ ⭐
