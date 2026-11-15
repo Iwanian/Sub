@@ -1,3 +1,5 @@
+tg://proxy?server=5.75.226.255&port=75&secret=ameuTC0XO0FodFQ1yzE6OQQ1yzE60Q ⭐
+tg://proxy?server=orbit.salahodine.ir&port=8880&secret=dd14637cbc656e9eec358228c45c4866b5 ⭐
 tg://proxy?server=lene36.kelpmoor.xyz&port=8443&secret=ee8a22a2efc31d03cfe33e7dc2abb809db6f7a6f6e2e7275 ru
 tg://proxy?server=rade48.sorrelbay.xyz&port=443&secret=ee8a22a2efc31d03cfe33e7dc2abb809db617669746f2e7275 ru
 tg://proxy?server=88kk3.masi.ir.he6fhd.ru&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
