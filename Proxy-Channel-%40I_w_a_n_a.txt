@@ -1,3 +1,6 @@
+tg://proxy?server=93.113.230.145&port=443&secret=FASTooGmYdaaVxJpA0SkKQ ⭐
+tg://proxy?server=yyh.ir.meli-n13.info&port=8443&secret=104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=www.yesyesno.ir.&port=8443&secret=3RcBGGq9DqYBIxkuJkNPkaU ⭐
 tg://proxy?server=77.92.151.70&port=443&secret=eefa0b3ae48854f59fc2e04ff6b36620b07370656564746573742e6e657 ⭐
 tg://proxy?server=pooran.ir.awedsj.info.&port=7443&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=winston.naaab.lol&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
