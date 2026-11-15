@@ -163,8 +163,3 @@ vless://581cab3e-5641-46f4-b460-3dd3cd254146@66.bmi.ir.asopardaz.ir:8443?encrypt
 vless://86a83d11-d751-4b60-aa4e-1dca5cff7028@85.155.179.206:443?security=tls&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=us3.shtil.io#@Qara_atayi
 vless://5269e0b4-0dff-4f97-e0c7-83130bacb009@140.245.62.225:36442?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=xjpp.zjlo.top#@Qara_atayi
 vless://055a1ce8-2a16-4a0d-a2c2-22826c9b2413@47.253.226.114:443?security=reality&encryption=none&pbk=Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc&host=%2F%3FTELEGRAM--MARAMBASHI--MARAMBASHI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com#@Qara_atayi
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTotWGVxSkFxdmR3Z0lrWU9Mc3VTUHY0RU5XVlExSjFUYQ@dns3.m3hrzd.ir:8044#%40TiTANiCVPN%E4%B8%A8%DA%86%D9%86%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTotWGVxSkFxdmR3Z0lrWU9Mc3VTUHY0RU5XVlExSjFUYQ@dns22.m3hrzd.ir:1348#%40TiTANiCVPN%E4%B8%A8%DA%86%D9%86%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTotWGVxSkFxdmR3Z0lrWU9Mc3VTUHY0RU5XVlExSjFUYQ@dns24.m3hrzd.ir:1353#%40TiTANiCVPN%E4%B8%A8%DA%86%D9%86%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTotWGVxSkFxdmR3Z0lrWU9Mc3VTUHY0RU5XVlExSjFUYQ@dns24.m3hrzd.ir:1352#%40TiTANiCVPN%E4%B8%A8%DA%86%D9%86%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTotWGVxSkFxdmR3Z0lrWU9Mc3VTUHY0RU5XVlExSjFUYQ@dns24.m3hrzd.ir:1349#%40TiTANiCVPN%E4%B8%A8%DA%86%D9%86%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
