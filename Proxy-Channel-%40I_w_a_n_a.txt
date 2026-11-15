@@ -1,3 +1,5 @@
+tg://proxy?server=bia.hastim.co.uk&port=8443&secret=EERighJJvXrFGRMCIMJdCQ ru
+tg://proxy?server=hamishe.hastim.co.uk&port=8443&secret=EERighJJvXrFGRMCIMJdCQ ru
 tg://proxy?server=server83.server-space52.info&port=2020&secret=AAAAAAAAAAAAAAAAAAAAAA%3D%3D ⭐
 tg://proxy?server=api-gateway-internal.terminalc.shop.&port=8443&secret=EERighJJvXrFGRMCIMJdCQ%3D%3D ⭐
 tg://proxy?server=srv-oowshw.smbiran.shop&port=443&secret=ee34f951f4eb7c490e26873500839bc4a1646c2e676f6f676c652e636f6d ru
