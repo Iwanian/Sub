@@ -1,3 +1,4 @@
+tg://proxy?server=checkout.steampower.online&port=3864&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=au.telechatgram.in&port=8443&secret=ee93347c71bba50740c51ae7052ed6b9e3636c6f7564666c6172652e636f6d ru
 tg://proxy?server=zenith.lanternmoss.top&port=443&secret=ee3af44f54fb6bb24e664d38ffb1a781197a656e6974682e6c616e7465726e6d6f73732e746f70 ru
 tg://proxy?server=proxy.gocdn-prime.ir&port=41816&secret=82f1ed94476a3948772eae5db8ea9646 ru
