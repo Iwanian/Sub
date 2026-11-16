@@ -1,3 +1,4 @@
+tg://proxy?server=star.talebi.co.uk&port=2096&secret=79e344818749bd7ac519130220c25d09 ⭐
 tg://proxy?server=fr.internet4free.org&port=443&secret=dd3734eba41c93d0154af5016413b6a00e ru
 tg://proxy?server=ddd.pikov.online&port=443&secret=7nBxXAND1xkpeXcXjYd4hLpsaC1pbi1mMTAyLjFlMTAwLm5ldA ru
 tg://proxy?server=bearencrypt.co&port=443&secret=5e8a1c3d7f2b9a4c6d0e1f8b3a7c2d9e ⭐
