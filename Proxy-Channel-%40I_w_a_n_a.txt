@@ -1,3 +1,4 @@
+tg://proxy?server=old.graduat.co.uk&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=new.vafadari.co.uk&port=2096&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=94.184.32.108.aprawood.ir&port=2020&secret=00000000000000000000000000000000 ⭐
 tg://proxy?server=pro.rocketpro.isroot.in&port=64953&secret=6e4c38e51df0ed03a32a340f709b899f ⭐
