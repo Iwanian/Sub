@@ -1,3 +1,4 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNOFoySTduR2pobXdoeTJt@40.123.254.236:443#%F0%9F%87%A9%F0%9F%87%AA%20%D8%B3%D8%B1%D9%88%D8%B1%D8%AA%D8%A7%DB%8C%D9%85%20%D8%A8%D8%A7%D9%84%D8%A7%D8%B9%D8%B6%D9%88%20%D8%B4%D9%88%F0%9F%91%89%40JKVPN
 vless://2a8fcfc3-e0d6-4e11-a9f8-a76f89ec00cb@ipfast.kingmna.com:443?type=ws&security=tls&path=%2F&host=finalnsdger.global.ssl.fastly.net.&sni=cdn.akamai.steamstatic.com&fp=chrome&encryption=none#%DA%86%D9%86%D9%84+%40JOFAVPN
 vless://2a8fcfc3-e0d6-4e11-a9f8-a76f89ec00cb@ipfast.kingmna.com:443?type=ws&security=tls&path=%2F&host=looabomrhesamijji.global.ssl.fastly.net.&sni=cdn.akamai.steamstatic.com&fp=ios&encryption=none#%DA%86%D9%86%D9%84+%40JOFAVPN
 vless://2a8fcfc3-e0d6-4e11-a9f8-a76f89ec00cb@ipfast.kingmna.com:443?type=ws&security=tls&path=%2F&host=denmarkijji.global.ssl.fastly.net&sni=cdn.akamai.steamstatic.com&encryption=none#%DA%86%D9%86%D9%84+%40JOFAVPN
