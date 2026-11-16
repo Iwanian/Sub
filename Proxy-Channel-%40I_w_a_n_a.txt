@@ -1,3 +1,4 @@
+tg://proxy?server=www.bank.com.squadgame.co.uk&port=8443&secret=dd5f7ce28a2c4816c6c923dfd4d5630e01 ⭐
 tg://proxy?server=jhndoes.co.uk&port=8443&secret=79e344818749bd7ac519130220c25d09 ⭐
 tg://proxy?server=Rudmoain.co.uk.&port=443&secret=eef0eeb0bd9adc4fd4a93994ee3b2a216b63646e2e79656b74616e65742e636f6d ⭐
 tg://proxy?server=98.22.51.6.88-205-694-406.ir.&port=8443&secret=3WMho4GHSV36xZoDAiDCXY4AAq5W5G55ZWt0YW5ldC5jb21mYXJheqF2LmNvbXZhbi5uYWp2YS5jb20AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA ⭐
