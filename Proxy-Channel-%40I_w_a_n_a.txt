@@ -1,3 +1,4 @@
+tg://proxy?server=236f1.mmd1.meli-n12.info&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=din5gli2.co.uk&port=4455&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=monaliiiz.www.n.hamintori.co.uk&port=443&secret=7l984oosSBbGySPf1NVjDgE%3D ⭐
 tg://proxy?server=gw-de-rgx-all.chatvpn.net&port=8443&secret=fd6ff2273d5b2a1411cb44dadea7abaa ⭐
