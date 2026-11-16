@@ -1,3 +1,4 @@
+tg://proxy?server=gw-de-rgx-all.chatvpn.net&port=8443&secret=fd6ff2273d5b2a1411cb44dadea7abaa ⭐
 tg://proxy?server=pony78.ashwren.xyz&port=8443&secret=ee779e9f58a7841578350dfd6d464f46206f7a6f6e2e7275 ru
 tg://proxy?server=visu60.sorrelbay.xyz&port=443&secret=ee779e9f58a7841578350dfd6d464f462062726f777365722e79616e6465782e7275 ru
 tg://proxy?server=viviri32.kelpmoor.xyz&port=8443&secret=ee779e9f58a7841578350dfd6d464f46206f7a6f6e2e7275 ru
