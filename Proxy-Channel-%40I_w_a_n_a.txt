@@ -1,3 +1,4 @@
+tg://proxy?server=18.116.17.219&port=2053&secret=ee393716dd381ea70c3db3e94dc6288ef5636c6f7564666c6172652e636f6d ⭐
 tg://proxy?server=236f1.mmd1.meli-n12.info&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=din5gli2.co.uk&port=4455&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=monaliiiz.www.n.hamintori.co.uk&port=443&secret=7l984oosSBbGySPf1NVjDgE%3D ⭐
