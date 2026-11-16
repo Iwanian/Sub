@@ -1,3 +1,4 @@
+tg://proxy?server=cart.risorius.top&port=443&secret=eea2c8021b23509aa5acc0c4c0a836d6be636172742e7269736f726975732e746f70 ⭐
 tg://proxy?server=ir.konstruktion.co.uk&port=8443&secret=EERighJJvXrFGRMCIMjdCQ ⭐
 tg://proxy?server=JOKER.goooalir.co.uk&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=tg.prxtg.top&port=443&secret=ee2d1bb45f31056d1063563fc6e38e5a1064726976652e676f6f676c652e636f6d ru
