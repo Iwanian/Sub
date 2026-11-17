@@ -1,3 +1,5 @@
+tg://proxy?server=hmde.easytome.net&port=443&secret=dd67fcdfeed6f4259b633d304a2db18d1b ⭐
+tg://proxy?port=2091&secret=ee0c3def35d5e62a7bd3f5f28d29aa3d367777772e636c6f7564666c6172652e636f6d&server=46.62.231.245 ⭐
 tg://proxy?server=77.42.86.7&port=7&secret=ee5f7ce28a2c4816c6c923dfd4d5630e01 ⭐
 tg://proxy?server=snapp.ir.neshan.org.tapsi.ir.balad.ir.siyahsefidi.ir&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=digikala.com.torob.ir.divar.ir.basalam.com.eyfst.ir&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
