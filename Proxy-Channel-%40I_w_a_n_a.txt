@@ -1,3 +1,6 @@
+tg://proxy?server=lllo0.masi.ir.he6fhd.ru&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=mno83.ir.ir.ir.meli-n12.info&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=7uu3.ir.meli-n13.info&port=8443&secret=104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=hmde.easytome.net&port=443&secret=dd67fcdfeed6f4259b633d304a2db18d1b ⭐
 tg://proxy?port=2091&secret=ee0c3def35d5e62a7bd3f5f28d29aa3d367777772e636c6f7564666c6172652e636f6d&server=46.62.231.245 ⭐
 tg://proxy?server=77.42.86.7&port=7&secret=ee5f7ce28a2c4816c6c923dfd4d5630e01 ⭐
