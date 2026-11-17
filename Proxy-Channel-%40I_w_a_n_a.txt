@@ -1,3 +1,7 @@
+tg://proxy?port=8443&secret=ee0c3def35d5e62a7bd3f5f28d29aa3d367777772e636c6f7564666c6172652e636f6d&server=46.62.231.245 ⭐
+tg://proxy?server=haji-jan.golabkashan.info&port=8443&secret=1603010200010001fc030386e24c3add ⭐
+tg://proxy?server=9f.do.s.or.6j8.so.r.torbad.ir.&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
+tg://proxy?server=65.109.176.207&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=7b.hp.d.f8b.so.y.coe.alo-alo.ir.&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=www.hosinjon.ir.&port=8443&secret=3RYDAQIAAQAB_AMDhuJMOt0AAq5W5G55ZWt0YW5ldC5jb21mYXJheqF2LmNvbXZhbi5uYWp2YS5jb20AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA ⭐
 tg://proxy?server=167.233.39.81&port=443&secret=YyEEgYdJXfrFmgMCIMJdjjRueWVrdGFuZXQA ⭐
