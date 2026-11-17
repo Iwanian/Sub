@@ -1,3 +1,5 @@
+tg://proxy?server=51.254.130.47&port=8443&secret=a84102e409230c3b69dd4f68cef86baf ru
+tg://proxy?server=185.77.96.1&port=8443&secret=bf2603b017a75407b95a0e97fe27e61e ru
 tg://proxy?server=51.df.yayayajd.co.uk&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=sefid.goooalir.co.uk&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=cocorichmond.pareporeh.info.&port=7799&secret=dd10400103324995b07c030386e886e7f1 ⭐
