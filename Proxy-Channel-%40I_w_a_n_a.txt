@@ -1,3 +1,5 @@
+tg://proxy?server=dearly.netherus.com&port=443&secret=ee44cd74d18707cd8bb74920a99d445599646561726c792e6e657468657275732e636f6d&user=%40HoosheMasnui&pass=%40HoosheMasnui%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%87%D9%88%D8%B4%20%D9%85%D8%B5%D9%86%D9%88%D8%B9%DB%8C ⭐
+tg://proxy?server=65.109.194.157&port=300&secret=eeNEgYdJvXrFGRMCIMJdCWFydmFuY2xvdWQuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&user=%40HoosheMasnui&pass=%40HoosheMasnui%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%87%D9%88%D8%B4%20%D9%85%D8%B5%D9%86%D9%88%D8%B9%DB%8C ⭐
 tg://proxy?server=o9.ir.ir.ir.meli-n12.info&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=pomi46.kelpmoor.xyz&port=8443&secret=eef17c22a56cac8bd46d12b91f8f9e102f62726f777365722e79616e6465782e7275 ru
 tg://proxy?server=www.yaho.com.maroochia.co.uk&port=443&secret=dd5f7ce28a2c4816c6c923dfd4d5630e01dd ⭐
