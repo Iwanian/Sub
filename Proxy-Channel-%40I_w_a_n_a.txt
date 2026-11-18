@@ -1,3 +1,5 @@
+tg://proxy?server=ultraproxy.shop&port=443&secret=eeec15a78c3842e866c302c8526175a68c7975672d6c696e6b2e7275 ru
+tg://proxy?server=94.130.226.7&port=8443&secret=EE5f7ce28a2c4816c6c923dfd4d5630e01 ⭐
 tg://proxy?server=mt01.whiskeytangofoxtrot.lol&port=443&secret=ee6939e0f212e69f68a8fec9bb1699c9bb6d7430312e776869736b657974616e676f666f7874726f742e6c6f6c ru
 tg://proxy?server=repo.steampower.online&port=3864&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=reference.zerooners.com&port=300&secret=eeNEgYdJvXrFGRMCIMJdCWFydmFuY2xvdWQuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA ru
