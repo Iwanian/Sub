@@ -1,3 +1,5 @@
+tg://proxy?server=mt01.whiskeytangofoxtrot.lol&port=443&secret=ee6939e0f212e69f68a8fec9bb1699c9bb6d7430312e776869736b657974616e676f666f7874726f742e6c6f6c ru
+tg://proxy?server=repo.steampower.online&port=3864&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=reference.zerooners.com&port=300&secret=eeNEgYdJvXrFGRMCIMJdCWFydmFuY2xvdWQuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA ru
 tg://proxy?server=north.tealbriar.xyz&port=8443&secret=eed8e23b55798e53b64877d42e6ef94a3f706574726f766963682e7275 ru
 tg://proxy?server=wolverhampton.goooalir.co.uk&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
