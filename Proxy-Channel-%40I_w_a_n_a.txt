@@ -1,3 +1,6 @@
+tg://proxy?server=86zjsj.masi.ir.he6fhd.ru&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=6g3o.ir.ir.ir.meli-n12.info&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=6he9.ir.meli-n13.info&port=8443&secret=104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=neon.tealbriar.xyz&port=8443&secret=ee7809adb838f02953d8f53df91d2e4b35706574726f766963682e7275 ru
 tg://proxy?server=204.168.139.76&port=8443&secret=ee58e955e99a5222704ca65d70d698ddc17777772e636c6f7564666c6172652e636f6d ⭐
 tg://proxy?server=surf.suslik-cloud.com&port=443&secret=eed7f61466f824eafe116a533553e01bca737572662e7375736c696b2d636c6f75642e636f6d ru
