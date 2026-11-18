@@ -1,3 +1,10 @@
+tg://proxy?server=Berke.Wikimoon.sale&port=443&secret=7jK5IN_7UWQwKOL2uHjU6sFkbXl3ZWIuY2xvdWRmcm9udC5uZXQ ⭐
+tg://proxy?server=ir.pcspeedyfix.co.uk&port=8443&secret=104462821249bd7ac519130220c8dd09 ⭐
+tg://proxy?server=support.infinityhalo.co.uk.&port=8443&secret=79e344818749bd7ac519130220c25d09 ⭐
+tg://proxy?server=exiscos.co.uk.&port=8443&secret=79e344818749bd7ac519130220c25d09 ⭐
+tg://proxy?server=checkout.steampower.online&port=3864&secret=79e344818749bd7ac519130220c25d09 ⭐
+tg://proxy?server=nice.rozinalpoku.co.uk&port=8080&secret=79e344818749bd7ac519130220c25d09 ⭐
+tg://proxy?server=www.digikallamall.ir&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=apple.salamcloud.net&port=443&secret=eed4a3eba2048f3cca4da991e0e4707ba3636c6f7564636f6e766572742e636f6d ⭐
 tg://proxy?server=86zjsj.masi.ir.he6fhd.ru&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=6g3o.ir.ir.ir.meli-n12.info&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
