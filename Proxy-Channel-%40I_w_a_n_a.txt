@@ -1,3 +1,5 @@
+tg://proxy?server=crest.paperteapot.com&port=443&secret=eed09fb30e9ba945e3eb272875413c8c9463726573742e7061706572746561706f742e636f6d ru
+tg://proxy?server=crest.velvetwindow.cc&port=443&secret=eed09fb30e9ba945e3eb272875413c8c9463726573742e76656c76657477696e646f772e6363 ru
 tg://proxy?server=you.pelastic.co.uk.&port=443&secret=ddc3b375786a3b9630e44cf87d2033a441 ⭐
 tg://proxy?server=quill.paperteapot.com&port=443&secret=eed09fb30e9ba945e3eb272875413c8c947175696c6c2e7061706572746561706f742e636f6d ru
 tg://proxy?server=quill.velvetwindow.cc&port=443&secret=eed09fb30e9ba945e3eb272875413c8c947175696c6c2e76656c76657477696e646f772e6363 ru
