@@ -1,3 +1,4 @@
+tg://proxy?server=65.109.218.95&port=443&secret=eef0eeb0bd9adc4fd4a93994ee3b2a216b63646e2e79656b74616e65742e636f6d ⭐
 tg://proxy?server=pine.heronglade.space&port=8443&secret=ee4b20619b99880640b45f275c18e20555786170692e6f7a6f6e2e7275 ru
 tg://proxy?server=gardenkite.heronglade.space&port=443&secret=ee4b20619b99880640b45f275c18e20555706574726f766963682e7275 ru
 tg://proxy?server=176.57.69.182&port=53627&secret=7kLrecHfIte-beJhzmMIKk0xYy5ydQ ⭐
