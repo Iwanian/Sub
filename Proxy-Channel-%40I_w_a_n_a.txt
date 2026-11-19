@@ -1,3 +1,4 @@
+tg://proxy?server=176.65.151.68&port=443&secret=dd27729feca8dbcd8008c3fa4f12d92793 ⭐
 tg://proxy?server=darkdept.store&port=8443&secret=ee4cdc677c2048afa846136f4a70c05e827777772e6461726b646570742e73746f7265 ru
 tg://proxy?server=viny39.mosswren.vip&port=8443&secret=eebe679b4dc0e994889bb8293fc71ba1a8786170692e6f7a6f6e2e7275 ru
 tg://proxy?server=zenon.flashspder.info&port=8443&secret=1603010200010001fc030386e24c3add ⭐
