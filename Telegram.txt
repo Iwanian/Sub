@@ -195,4 +195,3 @@ vless://4e932df2-a06a-4043-861c-87fe8d217aae@1.1.1.1:1000?encryption=none&securi
 vless://FastKey_446172@89.125.136.56:8080?mode=gun&security=none&encryption=none&type=grpc&serviceName=api#@llfreak
 vless://47422ff9-5ec9-44bc-8185-1ca7d6777c8b@45.92.219.130:8080?security=none&encryption=mlkem768x25519plus.native.0rtt._H-M1btxSJabS9bOOHO2MimYiNF9kXezxLQ7jxqL7X4&host=tgju.org&headerType=http&type=tcp#%F0%9F%87%B9%F0%9F%87%B7%40Fortex_vip_vpn%F0%9F%91%88%DA%AF%DB%8C%DA%AF%DB%8C6%20%D8%A8%D8%A7%20%D8%AA%D8%B3%D8%AA
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWQnp5czFjYWhmR1ZsT3dS@4.231.226.120:443#%F0%9F%87%A9%F0%9F%87%AA%20%D8%B3%D8%B1%D9%88%D8%B1%D8%AA%D8%A7%DB%8C%D9%85%20%D8%A8%D8%A7%D9%84%D8%A7%D8%B9%D8%B6%D9%88%20%D8%B4%D9%88%F0%9F%91%88%40JKVPN
-vless://b28548f6-65af-4492-88f9-8d8ff835bcbc@31.15.18.198:46398?encryption=none&type=tcp#%40NetAzadvpn1
