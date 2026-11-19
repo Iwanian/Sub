@@ -1,3 +1,4 @@
+tg://proxy?server=87.107.163.58&port=2080&secret=eed9aab64529b2299a46db48cd98dc6dc27370656564746573742e6e6574 ⭐
 tg://proxy?server=Strait-of-Hormuz.ir.bcsadwtgd.info.&port=7443&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=nyakawai.shop&port=443&secret=eeec15a78c3842e866c302c8526175a68c7975672d6c696e6b2e7275 ⭐
 tg://proxy?server=199.246.127.144&port=443&secret=0b0205af4ea1511058c799a11f75287b ⭐
