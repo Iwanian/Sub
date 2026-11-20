@@ -1,3 +1,7 @@
+tg://proxy?server=s3.server-space52.info&port=2020&secret=AAAAAAAAAAAAAAAAAAAAAA%3D%3D ⭐
+tg://proxy?server=s2.server-space52.info&port=2020&secret=AAAAAAAAAAAAAAAAAAAAAA%3D%3D ⭐
+tg://proxy?server=server93.server-space52.info&port=2020&secret=AAAAAAAAAAAAAAAAAAAAAA%3D%3D ⭐
+tg://proxy?server=lol-lock.godserver52.info&port=2020&secret=AAAAAAAAAAAAAAAAAAAAAA%3D%3D ⭐
 tg://proxy?server=polar.paperteapot.com&port=443&secret=eed09fb30e9ba945e3eb272875413c8c94706f6c61722e7061706572746561706f742e636f6d ru
 tg://proxy?server=polar.velvetwindow.cc&port=443&secret=eed09fb30e9ba945e3eb272875413c8c94706f6c61722e76656c76657477696e646f772e6363 ru
 tg://proxy?server=afsordegi.87-132-qarq.ir&port=2020&secret=AAAAAAAAAAAAAAAAAAAAAA%3D%3D ⭐
