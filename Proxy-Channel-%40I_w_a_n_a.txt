@@ -1,3 +1,4 @@
+tg://proxy?server=91.99.178.252&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=d1.jadroom.co.uk.&port=443&secret=3RBEYoISSb16xRkTAiDCXQk%3D ⭐
 tg://proxy?server=ir.jojeh.info&port=999&secret=HhPLkuXkVRr2IZaOEfMu2g ⭐
 tg://proxy?server=vampire132541623.fun&port=443&secret=7khP_sc19xjiOZYzYUXTJ7V3d3cuY2xvdWRmbGFyZS5jb20 ru
