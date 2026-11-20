@@ -108,4 +108,3 @@ vless://e75ad2eb-6c1f-45ce-8023-f5f10875df66@ru7e2bab87cc39.eu-cdn539.com:443?si
 ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0%3D@185.164.175.81:19999#🐌
 trojan://poimnap@alireza.karamoz1.ir:443?fp=chrome&allowInsecure=0&security=tls&type=tcp&headerType=none&insecure=0&alpn=h2%2Chttp%2F1.1&sni=alireza.karamoz1.ir#🐢
 vless://fbe22815-0718-4eae-816f-e91c67d15b54@150.241.92.23:2096?sni=stbf331.rumedia-cdn.com&allowInsecure=0&security=tls&fp=firefox&encryption=none&type=ws&host=stbf331.rumedia-cdn.com&insecure=0&path=%2Fcdn%2Fv3%2Flive#%40lazzzyturtle%F0%9F%90%A2
-vless://30572b57-f5ab-4eb8-82d4-a24d399b99f6@leviko-se3078.shopingggg.ir:59539?security=reality&encryption=none&pbk=R6mPqCsjZMWauci4LHw7Qp1LGKmBd-sxMXplyOn9bSQ&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=cloudflare-dns.com#%D8%B3%D9%88%D9%BE%D8%B1%20%D9%86%D8%A7%D9%85%D8%AD%D8%AF%D9%88%D8%AF%F0%9F%91%88%F0%9F%91%88config_star1
