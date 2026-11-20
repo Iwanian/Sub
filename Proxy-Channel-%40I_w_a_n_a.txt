@@ -1,3 +1,5 @@
+tg://proxy?server=sapphireaurora.paperteapot.com&port=443&secret=eed09fb30e9ba945e3eb272875413c8c9473617070686972656175726f72612e7061706572746561706f742e636f6d ru
+tg://proxy?server=sapphireaurora.velvetwindow.cc&port=443&secret=eed09fb30e9ba945e3eb272875413c8c9473617070686972656175726f72612e76656c76657477696e646f772e6363 ru
 tg://proxy?server=178.105.6.160&port=8443&secret=EERighJJvXrFGRMCIMjdCQ ⭐
 tg://proxy?server=91.107.160.196&port=443&secret=3XnnAQIAAQAH8AMDhuJMOt0 ⭐
 tg://proxy?server=tg.prxtg.top&port=443&secret=ee2d1bb45f31056d1063563fc6e38e5a1064726976652e676f6f676c652e636f6 ⭐
