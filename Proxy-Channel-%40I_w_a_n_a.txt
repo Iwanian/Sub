@@ -1,3 +1,4 @@
+tg://proxy?server=hafez.naaab.lol&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=matrixxx.vip&port=443&secret=eed0c83b444210a4302be4b1fe17714d4e6d617472697878782e766970 ⭐
 tg://proxy?server=great.cipservice.co.uk&port=2096&secret=eeNEgYdJvXrFGRMCIMJdNk ⭐
 tg://proxy?server=from.goooalir.co.uk&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
