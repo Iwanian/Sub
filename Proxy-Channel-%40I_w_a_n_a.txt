@@ -1,3 +1,4 @@
+tg://proxy?server=138.201.157.70&port=2020&secret=YyEEgYdJXfrFmgMCIMJdjjRueWVrdGFuZXQA ⭐
 tg://proxy?server=teledomen.lol&port=443&secret=ee47865459ee8e60d17b7374b5c7b53d086d6170792e636f6d ru
 tg://proxy?server=45.158.169.181&port=443&secret=eea5fc2db45339e3697e17b34e215713e07777772e676f6f676c652e636f6d ⭐
 tg://proxy?server=NALAS.goooalir.co.uk&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
