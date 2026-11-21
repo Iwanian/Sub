@@ -1,2 +1,3 @@
+https://raw.githubusercontent.com/miladtahanian/Config-Collector/main/mixed_iran.txt - filembad
 https://github.com/paranoideveloper/CoreForge-Collector4/blob/main/subscription_raw.txt - CoreForge
 https://raw.githubusercontent.com/Mosifree/-FREE2CONFIG/refs/heads/main/SS - Free2Config
