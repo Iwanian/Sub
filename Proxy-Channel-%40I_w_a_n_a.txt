@@ -1,3 +1,5 @@
+tg://proxy?server=this-is.fastnet-vpn.xyz&port=4443&secret=ee466f3ef394f7c682a47b604deda898ea746869732d69732e666173746e65742d76706e2e78797a ru
+tg://proxy?server=177.202.67.229&port=443&secret=ee59e09347d9a61afe7dfaa53d46d55bfd646576656c6f7065722e6e76696469612e636f6d ru
 tg://proxy?server=hafez.naaab.lol&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=matrixxx.vip&port=443&secret=eed0c83b444210a4302be4b1fe17714d4e6d617472697878782e766970 ⭐
 tg://proxy?server=great.cipservice.co.uk&port=2096&secret=eeNEgYdJvXrFGRMCIMJdNk ⭐
