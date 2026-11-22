@@ -1,3 +1,5 @@
+tg://proxy?server=www.zone51.online&port=443&secret=eefaf243dd3c6f6d19c3d1feb60c85b0237777772e7a6f6e6535312e6f6e6c696e65 ru
+tg://proxy?server=www.tgda.best&port=443&secret=ee03744a1a378ea98bbaa8d388b30332727777772e746764612e62657374 ru
 tg://proxy?server=138.201.21.16&port=8443&secret=EERighJJvXrFGRMCIMjdCQ ⭐
 tg://proxy?server=serv1simba.itsthepx.shop&port=2080&secret=7tmqtkUpsimaRttIzZjcbcJzcGVlZHRlc3QubmV0 ⭐
 tg://proxy?server=gamecenter.amaster.xyz.&port=8443&secret=EERighJJvXrFGRMCIMJdCQ%3D%3D ⭐
