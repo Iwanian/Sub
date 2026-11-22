@@ -1,3 +1,4 @@
+vless://2b072073-a696-4216-1170-08187d4adbdc@game.celvixo.ir:2087?encryption=none&host=cp.xelzano.ir&path=%2F&security=none&type=ws#%40I_w_a_n_a
 vless://e8b5d98a-f552-412a-27c2-2cbaac16eee5@game.celvixo.ir:2087?encryption=none&host=cp.xelzano.ir&path=%2F&security=none&type=ws#%40I_w_a_n_a
 vless://3a8e2e63-64b8-43b9-0e89-25633116daf1@game.celvixo.ir:2087?encryption=none&host=cp.xelzano.ir&path=%2F&security=none&type=ws#%40I_w_a_n_a
 vless://80f54f12-36d1-494e-d77b-04e092c85c52@game.celvixo.ir:2087?encryption=none&host=cp.xelzano.ir&path=%2F&security=none&type=ws#%40I_w_a_n_a
