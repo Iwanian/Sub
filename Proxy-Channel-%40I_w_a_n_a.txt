@@ -1,3 +1,4 @@
+tg://proxy?server=serv1simba.itsthepx.shop&port=2080&secret=7tmqtkUpsimaRttIzZjcbcJzcGVlZHRlc3QubmV0 ⭐
 tg://proxy?server=gamecenter.amaster.xyz.&port=8443&secret=EERighJJvXrFGRMCIMJdCQ%3D%3D ⭐
 tg://proxy?server=178.104.221.55&port=443&secret=YyEEgYdJXfrFmgMCIMJdjjRueWVrdGFuZXQA ⭐
 tg://proxy?server=fig.paperteapot.com&port=443&secret=eed09fb30e9ba945e3eb272875413c8c946669672e7061706572746561706f742e636f6d ru
