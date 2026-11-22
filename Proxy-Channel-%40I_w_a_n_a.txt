@@ -1,3 +1,4 @@
+tg://proxy?server=mt-sw.alex-photo-notes.pl&port=443&secret=eeee677bf5d2356b3744e1208cc35d70887777772e676f6f676c652e636f6d ru
 tg://proxy?server=23.88.36.117&port=443&secret=eefe2b2ee1ef5951643836dc9db42e6f687777772e62696e672e636f6d ⭐
 tg://proxy?server=www.zone51.online&port=443&secret=eefaf243dd3c6f6d19c3d1feb60c85b0237777772e7a6f6e6535312e6f6e6c696e65 ru
 tg://proxy?server=www.tgda.best&port=443&secret=ee03744a1a378ea98bbaa8d388b30332727777772e746764612e62657374 ru
