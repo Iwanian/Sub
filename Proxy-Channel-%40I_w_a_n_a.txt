@@ -1,3 +1,6 @@
+tg://proxy?server=age.nine11.art&port=443&secret=a0a26f6a93d9220e5fdb9856b6842c4d ⭐
+tg://proxy?server=age.nine11.art&port=443&secret=5b0a98d9fa4771fad9402dc3dedbdd9a ⭐
+tg://proxy?server=age.nine11.art&port=443&secret=4f3c828aa2cc2e9897c71478a7f9104e ⭐
 tg://proxy?server=rebeca.th3team.ir&port=7194&secret=ee2eb8a9073439b9c4555189b3860380cd626c6f672e6972 ⭐
 tg://proxy?server=this-is.fastnet-vpn.xyz&port=4443&secret=ee466f3ef394f7c682a47b604deda898ea746869732d69732e666173746e65742d76706e2e78797a ru
 tg://proxy?server=177.202.67.229&port=443&secret=ee59e09347d9a61afe7dfaa53d46d55bfd646576656c6f7065722e6e76696469612e636f6d ru
