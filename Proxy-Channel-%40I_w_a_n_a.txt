@@ -1,3 +1,5 @@
+tg://proxy?server=opss.anotelinopalk.co.uk&port=8880&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
+tg://proxy?server=khaterate.2nafare.info.&port=7799&secret=dd10400103324995b07c030386e886e7f1 ⭐
 tg://proxy?server=www.zone51.website&port=443&secret=ee3c3e7fd2980e2b3c5d8ffaf8bf4caffa7777772e7a6f6e6535312e77656273697465 ru
 tg://proxy?server=188.245.204.125&port=443&secret=YyEEgYdJXfrFmgMCIMJdjjRueWVrdGFuZXQA ⭐
 tg://proxy?port=8443&secret=ee30f95012c4dcfd38d882983834fc49d37777772e636c6f7564666c6172652e636f6d&server=46.62.155.245 ⭐
