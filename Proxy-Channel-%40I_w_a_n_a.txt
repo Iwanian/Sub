@@ -1,3 +1,6 @@
+tg://proxy?server=srv-ibgqeo.gomt.shop&port=443&secret=ee55cad87d90dd490959588b214e89ba02646c2e676f6f676c652e636f6d ⭐
+tg://proxy?server=apple.salamcloud.net&port=443&secret=7tSj66IEjzzKTamR4ORwe6NjbG91ZGNvbnZlcnQuY29t ⭐
+tg://proxy?server=fandogh.co.uk&port=4455&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=opss.anotelinopalk.co.uk&port=8880&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=khaterate.2nafare.info.&port=7799&secret=dd10400103324995b07c030386e886e7f1 ⭐
 tg://proxy?server=www.zone51.website&port=443&secret=ee3c3e7fd2980e2b3c5d8ffaf8bf4caffa7777772e7a6f6e6535312e77656273697465 ru
