@@ -1,3 +1,5 @@
+tg://proxy?server=marble.paperteapot.com&port=443&secret=eed09fb30e9ba945e3eb272875413c8c946d6172626c652e7061706572746561706f742e636f6d ru
+tg://proxy?server=marble.velvetwindow.cc&port=443&secret=eed09fb30e9ba945e3eb272875413c8c946d6172626c652e76656c76657477696e646f772e6363 ru
 tg://proxy?server=willowoak.paperteapot.com&port=443&secret=eed09fb30e9ba945e3eb272875413c8c9477696c6c6f776f616b2e7061706572746561706f742e636f6d ru
 tg://proxy?server=willowoak.velvetwindow.cc&port=443&secret=eed09fb30e9ba945e3eb272875413c8c9477696c6c6f776f616b2e76656c76657477696e646f772e6363 ru
 tg://proxy?server=mt-sw.alex-photo-notes.pl&port=443&secret=eeee677bf5d2356b3744e1208cc35d70887777772e676f6f676c652e636f6d ru
