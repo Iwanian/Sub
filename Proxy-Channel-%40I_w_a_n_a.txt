@@ -1,3 +1,4 @@
+tg://proxy?server=pro2.rocketpro.isroot.in&port=5694&secret=6e4c38e51df0ed03a32a340f709b899f ⭐
 tg://proxy?server=professor.hasratepaeiz.website.&port=7070&secret=iORid5lJ237IiBMGYMQMdw ⭐
 tg://proxy?server=8182u.masi.ir.he6fhd.ru&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=ls27ox.ir.ir.ir.meli-n12.info&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
