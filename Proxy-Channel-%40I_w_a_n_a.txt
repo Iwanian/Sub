@@ -1,3 +1,4 @@
+tg://proxy?port=8443&secret=ee57a20bd9d88db952e93fec2a82468aa57777772e636c6f7564666c6172652e636f6d&server=5.222.9.42 ⭐
 tg://proxy?server=amir-kabir.davooti.info&port=8443&secret=1603010200010001fc030386e24c3add ⭐
 tg://proxy?server=fr.internet4free.org&port=443&secret=dd3734eba41c93d0154af5016413b6a00e ⭐
 tg://proxy?server=srv-ibgqeo.gomt.shop&port=443&secret=ee55cad87d90dd490959588b214e89ba02646c2e676f6f676c652e636f6d ⭐
