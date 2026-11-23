@@ -1,3 +1,5 @@
+tg://proxy?server=mkima.davay.click&port=443&secret=ee39300be14c4d54704c92416d555fa7026d6b696d612e64617661792e636c69636b ru
+tg://proxy?server=ykima.davay.click&port=443&secret=ee06dfdbdf271bab18c6b606484c237384796b696d612e64617661792e636c69636b ru
 tg://proxy?port=8443&secret=ee57a20bd9d88db952e93fec2a82468aa57777772e636c6f7564666c6172652e636f6d&server=5.222.9.42 ⭐
 tg://proxy?server=amir-kabir.davooti.info&port=8443&secret=1603010200010001fc030386e24c3add ⭐
 tg://proxy?server=fr.internet4free.org&port=443&secret=dd3734eba41c93d0154af5016413b6a00e ⭐
