@@ -1,3 +1,4 @@
+tg://proxy?port=8443&secret=ee30f95012c4dcfd38d882983834fc49d37777772e636c6f7564666c6172652e636f6d&server=46.62.155.245 ⭐
 tg://proxy?server=rabotaetwork.lol&port=443&secret=ee47de80df1bc0d9445e351affb498dc6a7261626f74616574776f726b2e6c6f6c ru
 tg://proxy?server=char.anotelinopalk.co.uk&port=8880&secret=79e344818749bd7ac519130220c25d09 ⭐
 tg://proxy?server=cove.paperteapot.com&port=443&secret=eed09fb30e9ba945e3eb272875413c8c94636f76652e7061706572746561706f742e636f6d ru
