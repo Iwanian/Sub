@@ -1,3 +1,6 @@
+tg://proxy?server=as.mkim.click&port=443&secret=ee2dfa3526fc70b7abd7a09eade6ccea1f61732e6d6b696d2e636c69636b ru
+tg://proxy?server=max.kimt.click&port=443&secret=ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b ru
+tg://proxy?server=ir-countdown.lewisj.co.uk&port=8443&secret=104462821249bd7ac519130220c8dd09 ⭐
 tg://proxy?server=46.225.255.217&port=443&secret=eec6b40f6632c195da208d921acdba04077777772e636c6f7564666c6172652e636f6d ⭐
 tg://proxy?server=dah.ionox.co.uk&port=8880&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=kgs.larilarilaylay.ir&port=8080&secret=EERighJJvXrFGRMCIMJdCQ ⭐
