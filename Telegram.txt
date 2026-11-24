@@ -82,4 +82,3 @@ trojan://t5ZTZ0bYgRLNmJKv-Wg2wmsMx21s6RhX@78.17.171.140:2053?path=%2F2fc2ec03a65
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprZ2dSQTQ5TmYtNFpReWZLMlVSNFpYMURMVlIzNVlOeQ@tun.mhm610.ir:39999#Test
 trojan://mitivpn@199.232.78.160:443?pcs=cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e&path=%2F&security=tls&alpn=http%2F1.1&insecure=0&host=mitivpn-mitivpn--mitivpn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=steamstatic.com#none
 trojan://mitivpn@167.82.64.7:443?pcs=cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e&path=%3F28&security=tls&alpn=http%2F1.1&insecure=0&host=mitivpn-mitivpn--mitivpn.global.ssl.fastly.net&fp=firefox&type=ws&allowInsecure=0&sni=steamstatic.com#none
-vless://6c5938b3-6ff4-46e6-94b7-7836efe14a4b@yas.cdn01.ir:8227?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#%40DARK_LINK1%F0%9F%9A%80%F0%9F%8C%AA
