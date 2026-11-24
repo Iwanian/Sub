@@ -1,3 +1,4 @@
+tg://proxy?server=185.19.33.28&port=443&secret=58b9d558d6ebc2184c6afdefd9e3d331 ⭐
 tg://proxy?server=pro3.rocketpro.isroot.in&port=443&secret=eede6a059c675bc4da54f3b4712ac965337777772e636c6f7564666c6172652e636f6d ⭐
 tg://proxy?server=web.cocorichmond.site.&port=8880&secret=6HQighJPCNNYVRNB6tdkAg ⭐
 tg://proxy?server=smtp.azmaster.xyz.&port=8443&secret=EERighJJvXrFGRMCIMJdCQ%3D%3D ⭐
