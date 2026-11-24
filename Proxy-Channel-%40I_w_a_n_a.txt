@@ -1,3 +1,6 @@
+tg://proxy?server=cdn.divpal.com&port=8443&secret=dd71889eb517157210d61df330a5f11d95 ⭐
+tg://proxy?server=file.speedtestcdn.info&port=8443&secret=dd71889eb517157210d61df330a5f11d95 ⭐
+tg://proxy?server=speedtest2.juhrsksde.info&port=8443&secret=dd71889eb517157210d61df330a5f11d95 ⭐
 tg://proxy?server=91.99.126.21&port=8443&secret=YyEEgYdJXfrFmgMCIMJdjjRueWVrdGFuZXQA ⭐
 tg://proxy?server=87.248.144.60&port=2053&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=masachoset.rah-toro-mikhanad.info&port=9988&secret=e8742282124f08d358551341ead76402 ⭐
