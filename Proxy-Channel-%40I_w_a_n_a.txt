@@ -1,1 +1,3 @@
+tg://proxy?server=glademarble.paperteapot.com&port=443&secret=eed09fb30e9ba945e3eb272875413c8c94676c6164656d6172626c652e7061706572746561706f742e636f6d ru
+tg://proxy?server=glademarble.velvetwindow.cc&port=443&secret=eed09fb30e9ba945e3eb272875413c8c94676c6164656d6172626c652e76656c76657477696e646f772e6363 ru
 tg://proxy?server=tg-2dec1d.topazatlas.info&port=443&secret=eedba375040bb359c503303574db0342be7777772e62696e672e636f6d ⭐
