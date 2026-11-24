@@ -1,3 +1,6 @@
+tg://proxy?server=ir-countdown.lewisj.co.uk&port=8443&secret=EERighJJvXrFGRMCIMjdCQ ⭐
+tg://proxy?server=85.133.200.49&port=8880&secret=3RBEYoISSb16xRkTAiDCXQk ⭐
+tg://proxy?server=85.133.200.44&port=8880&secret=3RYDAQIAAQAB_AMDhuJMOt0 ⭐
 tg://proxy?server=87.248.144.249&port=2096&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=5.75.241.224&port=8443&secret=YyEEgYdJXfrFmgMCIMJdjjRueWVrdGFuZXQA ⭐
 tg://proxy?server=1.fulle7.info&port=8443&secret=EERighJJvXrFGRMCIMJdCQ%3D ⭐
