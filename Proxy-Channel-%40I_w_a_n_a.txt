@@ -1,3 +1,4 @@
+tg://proxy?server=46.225.255.217&port=443&secret=eec6b40f6632c195da208d921acdba04077777772e636c6f7564666c6172652e636f6d ⭐
 tg://proxy?server=dah.ionox.co.uk&port=8880&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=kgs.larilarilaylay.ir&port=8080&secret=EERighJJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=shoreplum.paperteapot.com&port=443&secret=eed09fb30e9ba945e3eb272875413c8c9473686f7265706c756d2e7061706572746561706f742e636f6d ru
