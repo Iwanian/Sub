@@ -1,3 +1,8 @@
+tg://proxy?server=87.248.144.152&port=8880&secret=3RYDAQIAAQAB_AMDhuJMOt0 ⭐
+tg://proxy?server=87.248.144.154&port=8880&secret=3XnjRIGHSb16xRkTAiDCXQk ⭐
+tg://proxy?server=87.248.144.157&port=8880&secret=3RYDAQIAAQAB_AMDhuJMOt0 ⭐
+tg://proxy?server=87.248.144.253&port=2096&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
+tg://proxy?server=87.248.144.159&port=8880&secret=3RYDAQIAAQAB_AMDhuJMOt0 ⭐
 tg://proxy?server=cdn.divpal.com&port=8443&secret=dd71889eb517157210d61df330a5f11d95 ⭐
 tg://proxy?server=file.speedtestcdn.info&port=8443&secret=dd71889eb517157210d61df330a5f11d95 ⭐
 tg://proxy?server=speedtest2.juhrsksde.info&port=8443&secret=dd71889eb517157210d61df330a5f11d95 ⭐
