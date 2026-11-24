@@ -1,3 +1,7 @@
+tg://proxy?server=pro3.rocketpro.isroot.in&port=443&secret=eede6a059c675bc4da54f3b4712ac965337777772e636c6f7564666c6172652e636f6d ⭐
+tg://proxy?server=web.cocorichmond.site.&port=8880&secret=6HQighJPCNNYVRNB6tdkAg ⭐
+tg://proxy?server=smtp.azmaster.xyz.&port=8443&secret=EERighJJvXrFGRMCIMJdCQ%3D%3D ⭐
+tg://proxy?server=static.azmaster.xyz.&port=8443&secret=EERighJJvXrFGRMCIMJdCQ%3D%3D ⭐
 tg://proxy?server=87.248.144.152&port=8880&secret=3RYDAQIAAQAB_AMDhuJMOt0 ⭐
 tg://proxy?server=87.248.144.154&port=8880&secret=3XnjRIGHSb16xRkTAiDCXQk ⭐
 tg://proxy?server=87.248.144.157&port=8880&secret=3RYDAQIAAQAB_AMDhuJMOt0 ⭐
