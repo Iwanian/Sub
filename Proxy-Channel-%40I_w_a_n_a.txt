@@ -1,3 +1,4 @@
+tg://proxy?server=accu.zendrip.ir&port=8080&secret=EERighJJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=88.198.112.238&port=8080&secret=YyEEgYdJXfrFmgMCIMJdjjRueWVrdGFuZXQD ⭐
 tg://proxy?server=172.65.172.190&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=5.222.26.187&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
