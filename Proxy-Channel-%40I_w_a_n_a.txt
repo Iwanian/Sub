@@ -1,3 +1,5 @@
+tg://proxy?server=comet.paperteapot.com&port=443&secret=eed09fb30e9ba945e3eb272875413c8c94636f6d65742e7061706572746561706f742e636f6d ru
+tg://proxy?server=comet.velvetwindow.cc&port=443&secret=eed09fb30e9ba945e3eb272875413c8c94636f6d65742e76656c76657477696e646f772e6363 ru
 tg://proxy?server=day.lavazem4.co.uk&port=2053&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=winter.lavazem2.co.uk&port=2053&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=afkar.lavazem1.co.uk&port=2053&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
