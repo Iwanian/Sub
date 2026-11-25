@@ -1,3 +1,6 @@
+tg://proxy?server=172.65.172.190&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
+tg://proxy?server=5.222.26.187&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=5.222.26.27&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=dev.vetka.rest&port=443&secret=eecdd6a7c79fc13f435c20a0874f0658da6465762e7665746b612e72657374 ru
 tg://proxy?server=7b.me.u.c6.ci.7.206-197-43.ir.&port=8443&secret=YyEEgYdJXfrFmgMCIMJdjjRueWVrdGFuZXQA ⭐
 tg://proxy?server=cup.n5.ci.zy.7nf.35.37-68-174.ir.&port=8443&secret=YyEEgYdJXfrFmgMCIMJdjjRueWVrdGFuZXQA ⭐
