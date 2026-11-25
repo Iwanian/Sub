@@ -1,3 +1,4 @@
+tg://proxy?server=Access.zangbezanbem.ir&port=8080&secret=EERighJJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=2.28.34.247&port=28110&secret=YyEEgYdJXfrFmgMCIMJdjjRueWVrdGFuZXQD ⭐
 tg://proxy?server=cloudflare.com.samsung.com.co.uk.do_you.www.yahoo.com.google.com.again_to_fight.everyone.i_am.the_internet.4allbest.shop.&port=443&secret=FgMBAgABAAH8AwOG4kw63Q ⭐
 tg://proxy?server=37.27.206.180&port=8443&secret=dd79e344818749bd7ac519130220c25d09 ⭐
