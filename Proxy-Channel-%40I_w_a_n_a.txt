@@ -1,3 +1,4 @@
+tg://proxy?server=cloudflare.com.samsung.com.co.uk.do_you.www.yahoo.com.google.com.again_to_fight.everyone.i_am.the_internet.4allbest.shop.&port=443&secret=FgMBAgABAAH8AwOG4kw63Q ⭐
 tg://proxy?server=37.27.206.180&port=8443&secret=dd79e344818749bd7ac519130220c25d09 ⭐
 tg://proxy?server=freenetxbot.ahbpanel.ir&port=8443&secret=dd1070cde58259ffe114b8aa90a9fdde75 ⭐
 tg://proxy?server=167.235.13.16&port=25034&secret=eec585c75caafa914b1747004cfc63ed007777772e636c6f7564666c6172652e636f6d ⭐
