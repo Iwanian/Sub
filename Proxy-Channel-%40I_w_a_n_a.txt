@@ -1,3 +1,6 @@
+tg://proxy?server=dev.vetka.rest&port=443&secret=eecdd6a7c79fc13f435c20a0874f0658da6465762e7665746b612e72657374 ru
+tg://proxy?server=7b.me.u.c6.ci.7.206-197-43.ir.&port=8443&secret=YyEEgYdJXfrFmgMCIMJdjjRueWVrdGFuZXQA ⭐
+tg://proxy?server=cup.n5.ci.zy.7nf.35.37-68-174.ir.&port=8443&secret=YyEEgYdJXfrFmgMCIMJdjjRueWVrdGFuZXQA ⭐
 tg://proxy?server=zendebad.damavand.co.uk&port=2096&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=78.47.153.248&port=8443&secret=EERighJJvXrFGRMCIMJdCQ%3D%3D ⭐
 tg://proxy?server=138.201.184.94&port=8443&secret=EERighJJvXrFGRMCIMJdCQ%3D%3D ⭐
