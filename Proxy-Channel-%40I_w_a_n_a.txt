@@ -1,3 +1,4 @@
+tg://proxy?server=87.248.144.151&port=8880&secret=3RYDAQIAAQAB_AMDhuJMOt0 ⭐
 tg://proxy?server=sersinn.info&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ ru
 tg://proxy?server=rebous.info.&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ ru
 tg://proxy?server=tech.gooodrat.co.uk&port=2096&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
