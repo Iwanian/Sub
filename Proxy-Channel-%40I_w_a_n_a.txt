@@ -1,3 +1,5 @@
+tg://proxy?server=87.248.144.152&port=8880&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
+tg://proxy?server=91.221.190.198&port=443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=shopify.appnormoor.info&port=443&secret=dd27729feca8dbcd8008c3fa4f12d92793 ⭐
 tg://proxy?server=aurora.paperteapot.com&port=443&secret=eed09fb30e9ba945e3eb272875413c8c946175726f72612e7061706572746561706f742e636f6d ru
 tg://proxy?server=aurora.velvetwindow.cc&port=443&secret=eed09fb30e9ba945e3eb272875413c8c946175726f72612e76656c76657477696e646f772e6363 ru
