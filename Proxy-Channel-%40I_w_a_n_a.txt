@@ -1,3 +1,4 @@
+tg://proxy?server=aptupdate.appnormoor.info&port=443&secret=dd27729feca8dbcd8008c3fa4f12d92793 ⭐
 tg://proxy?server=194.110.210.19&port=443&secret=b77fdd90bda5996e98382af4583cd6cd ⭐
 tg://proxy?server=dastan.sarnevesht.space&port=443&secret=10400103324995b07c030386e886e7f1 ⭐
 tg://proxy?server=citrus.paperteapot.com&port=443&secret=eed09fb30e9ba945e3eb272875413c8c946369747275732e7061706572746561706f742e636f6d ru
