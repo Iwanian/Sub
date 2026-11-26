@@ -1,3 +1,4 @@
+tg://proxy?server=yek.ionox.co.uk&port=8880&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=159.69.240.106&port=8080&secret=YyEEgYdJXfrFmgMCIMJdjjRueWVrdGFuZXQD ⭐
 tg://proxy?server=87.248.14.50&port=2083&secret=eeNEgYdJvXrFGRIMJdCQ ⭐
 tg://proxy?server=87.248.144.167&port=8880&secret=3RYDAQIAAQAB_AMDhuJMOt0 ⭐
