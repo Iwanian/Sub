@@ -1,3 +1,9 @@
+tg://proxy?server=5.222.4.90&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=5.222.24.244&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=5.222.0.9&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=5.222.26.128&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=5.222.17.103&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=31.57.185.109&port=443&secret=506a6c7f9617c9a9e2a56782ae441f33 ⭐
 tg://proxy?server=145.79.7.181&port=8443&secret=dd7fd89aa5690699c1375b20a11b6b75ba ru
 tg://proxy?server=cloudflare.again_to_fight.everyone.i_am.the_internet.mazhol.info.&port=443&secret=2I25nuNyHw_LQKT_Y7XNKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA ⭐
 tg://proxy?server=49.13.59.213&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
