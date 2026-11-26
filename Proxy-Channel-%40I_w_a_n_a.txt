@@ -1,3 +1,4 @@
+tg://proxy?server=31.57.185.109&port=8443&secret=4771fbfa345de86d74235b29c943af56 ⭐
 tg://proxy?server=94.184.39.151&port=443&secret=ddf0eeb0bd9adc4fd4a93994ee3b2a216b ru
 tg://proxy?server=94.184.39.150&port=443&secret=ddf0eeb0bd9adc4fd4a93994ee3b2a216b ru
 tg://proxy?server=zendebad.damavand.co.uk&port=2096&secret=79e344818749bd7ac519130220c25d09 ⭐
