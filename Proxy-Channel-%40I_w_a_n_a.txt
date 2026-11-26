@@ -1,3 +1,4 @@
+tg://proxy?server=159.69.240.106&port=8080&secret=YyEEgYdJXfrFmgMCIMJdjjRueWVrdGFuZXQD ⭐
 tg://proxy?server=87.248.14.50&port=2083&secret=eeNEgYdJvXrFGRIMJdCQ ⭐
 tg://proxy?server=87.248.144.167&port=8880&secret=3RYDAQIAAQAB_AMDhuJMOt0 ⭐
 tg://proxy?server=31.57.185.109&port=8443&secret=4771fbfa345de86d74235b29c943af56 ⭐
