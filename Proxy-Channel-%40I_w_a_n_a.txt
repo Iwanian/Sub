@@ -1,3 +1,16 @@
+tg://proxy?server=orbit.paperteapot.com&port=443&secret=eed09fb30e9ba945e3eb272875413c8c946f726269742e7061706572746561706f742e636f6d ru
+tg://proxy?server=orbit.velvetwindow.cc&port=443&secret=eed09fb30e9ba945e3eb272875413c8c946f726269742e76656c76657477696e646f772e6363 ru
+tg://proxy?server=77.238.241.225&port=8880&secret=79e344818749bd7ac519130220c25d09 ⭐
+tg://proxy?server=sshkey.laniva.ir&port=8443&secret=1603010200010001fc030386e24c3add ⭐
+tg://proxy?server=akiliosh.laniva.ir&port=8443&secret=1603010200010001fc030386e24c3add ⭐
+tg://proxy?server=miznan-dade-online-gmbh.mobovin.ir&port=8443&secret=1603010200010001fc030386e24c3add ⭐
+tg://proxy?server=tondar.ricebr.ir&port=8443&secret=1603010200010001fc030386e24c3add ⭐
+tg://proxy?server=phone.laniva.ir&port=8443&secret=1603010200010001fc030386e24c3add ⭐
+tg://proxy?server=sync.ricebr.ir&port=8443&secret=1603010200010001fc030386e24c3add ⭐
+tg://proxy?server=resume.ricebr.ir&port=8443&secret=1603010200010001fc030386e24c3add ⭐
+tg://proxy?server=team-daemi.iaubpanel.info&port=8443&secret=1603010200010001fc030386e24c3add ⭐
+tg://proxy?server=event.iaubpanel.info&port=8443&secret=1603010200010001fc030386e24c3add ⭐
+tg://proxy?server=188.245.118.216&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=87.248.144.92&port=2053&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=shahi.shambelile.co.uk&port=8443&secret=EERighJJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=fox.paperteapot.com&port=443&secret=eed09fb30e9ba945e3eb272875413c8c94666f782e7061706572746561706f742e636f6d ru
