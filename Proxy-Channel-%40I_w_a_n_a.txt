@@ -1,3 +1,4 @@
+tg://proxy?server=my.fastprx.co.uk&port=2052&secret=aea1191522c9b281d2633610a34e730d ⭐
 tg://proxy?server=pro.khoorshid.co.uk&port=2096&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=91.234.147.30&port=443&secret=AAAAAAAAAAAAAAAAAAAAAA%3D%3D ⭐
 tg://proxy?server=135.181.213.126&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
