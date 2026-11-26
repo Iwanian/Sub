@@ -1,3 +1,4 @@
+tg://proxy?server=its.fastprx.co.uk&port=2086&secret=d2289d65c760a8245e24ffc2e3a3ba27 ⭐
 tg://proxy?server=77.42.74.185&port=8443&secret=EERighJJvXrFGRMCIMJdCQ%3D%3D ⭐
 tg://proxy?server=91.107.202.155&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=orbit.paperteapot.com&port=443&secret=eed09fb30e9ba945e3eb272875413c8c946f726269742e7061706572746561706f742e636f6d ru
