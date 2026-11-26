@@ -1,3 +1,4 @@
+tg://proxy?server=49.13.59.213&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=do.goodrat.co.uk&port=2096&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=plus.khorshid.co.uk&port=2096&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=round.fekr.co.uk&port=2083&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
