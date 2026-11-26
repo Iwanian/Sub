@@ -1,3 +1,8 @@
+tg://proxy?server=box-to-box.dablecheckz.info&port=8443&secret=1603010200010001fc030386e24c3add ⭐
+tg://proxy?server=checker-mizban.dablecheckz.info&port=8443&secret=1603010200010001fc030386e24c3add ⭐
+tg://proxy?server=ipv4.dablecheckz.info&port=8443&secret=1603010200010001fc030386e24c3add ⭐
+tg://proxy?server=ipv6.dablecheckz.info&port=8443&secret=1603010200010001fc030386e24c3add ⭐
+tg://proxy?server=5.222.3.103&port=8443&secret=FASTSPEEDFORYOUAAAAAAA%3D%3D ⭐
 tg://proxy?server=S1.callofdutyc.com&port=443&secret=9e2c111e277d472b7420f791a8cc4453 ⭐
 tg://proxy?server=Flor.callofdutyc.com&port=2083&secret=d823b87220ced5d8d18ac8cf16bc9610 ⭐
 tg://proxy?server=Mic.callofdutyc.com&port=2052&secret=d504bbceee548bfbd85697159a309b46 ⭐
