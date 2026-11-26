@@ -1,3 +1,4 @@
+tg://proxy?server=cloudflare.again_to_fight.everyone.i_am.the_internet.mazhol.info.&port=443&secret=2I25nuNyHw_LQKT_Y7XNKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA ⭐
 tg://proxy?server=49.13.59.213&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=do.goodrat.co.uk&port=2096&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=plus.khorshid.co.uk&port=2096&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
