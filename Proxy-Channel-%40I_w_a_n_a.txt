@@ -1,3 +1,5 @@
+tg://proxy?server=stream.amaster.xyz.&port=8443&secret=EERighJJvXrFGRMCIMJdCQ%3D%3D ⭐
+tg://proxy?server=pro5.rocketpro.isroot.in&port=443&secret=eede6a059c675bc4da54f3b4712ac965337777772e636c6f7564666c6172652e636f6d ⭐
 tg://proxy?port=443&secret=ee1b44dc799f2aa4c7c1dc89e2e3c379d47777772e636c6f7564666c6172652e636f6d&server=5.222.19.87 ⭐
 tg://proxy?server=box-to-box.dablecheckz.info&port=8443&secret=1603010200010001fc030386e24c3add ⭐
 tg://proxy?server=checker-mizban.dablecheckz.info&port=8443&secret=1603010200010001fc030386e24c3add ⭐
