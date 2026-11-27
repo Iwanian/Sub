@@ -1,3 +1,4 @@
+tg://proxy?server=167.233.173.95&port=8443&secret=dd14049348f1040c539160e50000000000 ⭐
 tg://proxy?server=free3.gram.blog&port=443&secret=ee57639673cce7f03e351b8a5a857eea6c62726f777365722e79616e6465782e7275 ru
 tg://proxy?server=free1.gram.blog&port=443&secret=eeeb46ebb806e03733786c662fdb27dac062726f777365722e79616e6465782e7275 ru
 tg://proxy?server=5.222.28.41&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
