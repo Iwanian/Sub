@@ -1,3 +1,5 @@
+tg://proxy?server=sierra.paperteapot.com&port=443&secret=eed09fb30e9ba945e3eb272875413c8c947369657272612e7061706572746561706f742e636f6d ru
+tg://proxy?server=sierra.velvetwindow.cc&port=443&secret=eed09fb30e9ba945e3eb272875413c8c947369657272612e76656c76657477696e646f772e6363 ru
 tg://proxy?server=167.233.173.95&port=8443&secret=3RQEk0jxBAxTkWDlAAAAAAA%3D ⭐
 tg://proxy?server=cloudflare.com.samsung.com.co.uk.do_you.www.yahoo.com.google.com.again_to_fight.everyone.i_am.the_internet.4allbest.shop.&port=443&secret=1603010200010001fc030386e24c3add ⭐
 tg://proxy?server=yek.ionox.co.uk&port=8880&secret=eeNEgYdJvXrFGRMCIMJdCQ ⭐
