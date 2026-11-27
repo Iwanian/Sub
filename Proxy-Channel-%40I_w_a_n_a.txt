@@ -1,3 +1,6 @@
+tg://proxy?server=85.133.194.6&port=2020&secret=AAAAAAAAAAAAAAAAAAAAAA%3D%3D ⭐
+tg://proxy?server=176.65.151.198&port=443&secret=27b755f7782717608a4ec995fa0945e9 ⭐
+tg://proxy?server=85.133.199.22&port=8443&secret=EERighJJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=lok1atomi.pr.deampro.pw&port=443&secret=ee85e36b1fea9add1b2b9de8996259df0f662d70312d733031352d3934356139666164653832312d3162623736356263333438612e6c6f6b3161746f6d692e70722e6465616d70726f2e7077 ru
 tg://proxy?server=167.233.159.133&port=8443&secret=dd79e344818749bd7ac519130220c25d09 ⭐
 tg://proxy?server=178.105.77.165&port=8080&secret=YyEEgYdJXfrFmgMCIMJdjjRueWVrdGFuZXQD ⭐
