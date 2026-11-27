@@ -1,3 +1,10 @@
+tg://proxy?server=85.133.199.20&port=8443&secret=EERighJJvXrFGRMCIMJdCQ ⭐
+tg://proxy?server=px4.safeseller.ir&port=2398&secret=dd82a16e42d9a813a5c48ea8e2d7df5421 ⭐
+tg://proxy?server=87.248.144.151&port=8880&secret=dd1603010200010001fc030386e24c3add ⭐
+tg://proxy?server=87.248.144.153&port=8880&secret=dd79e344818749bd7ac519130220c25d09 ⭐
+tg://proxy?server=87.248.144.159&port=8880&secret=dd1603010200010001fc030386e24c3add ⭐
+tg://proxy?server=87.248.144.60&port=2053&secret=79e344818749bd7ac519130220c25d09 ⭐
+tg://proxy?server=87.248.144.253&port=2096&secret=79e344818749bd7ac519130220c25d09 ⭐
 tg://proxy?server=sierra.paperteapot.com&port=443&secret=eed09fb30e9ba945e3eb272875413c8c947369657272612e7061706572746561706f742e636f6d ru
 tg://proxy?server=sierra.velvetwindow.cc&port=443&secret=eed09fb30e9ba945e3eb272875413c8c947369657272612e76656c76657477696e646f772e6363 ru
 tg://proxy?server=167.233.173.95&port=8443&secret=3RQEk0jxBAxTkWDlAAAAAAA%3D ⭐
