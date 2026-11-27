@@ -1,3 +1,10 @@
+tg://proxy?server=5.222.28.41&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=5.222.23.167&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=5.222.28.85&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=5.222.20.225&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=5.222.1.17&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=5.222.9.115&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
+tg://proxy?server=85.133.199.21&port=8443&secret=EERighJJvXrFGRMCIMJdCQ ⭐
 tg://proxy?server=o05d9opx.ir.ir.ir.meli-n12.info&port=8443&secret=dd104462821249bd7ac519130220c25d09 ⭐
 tg://proxy?server=crystalsierra.paperteapot.com&port=443&secret=eed09fb30e9ba945e3eb272875413c8c946372797374616c7369657272612e7061706572746561706f742e636f6d ru
 tg://proxy?server=crystalsierra.velvetwindow.cc&port=443&secret=eed09fb30e9ba945e3eb272875413c8c946372797374616c7369657272612e76656c76657477696e646f772e6363 ru
