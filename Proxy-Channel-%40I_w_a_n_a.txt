@@ -1,3 +1,4 @@
+tg://proxy?server=178.105.77.165&port=8080&secret=YyEEgYdJXfrFmgMCIMJdjjRueWVrdGFuZXQD ⭐
 tg://proxy?server=103.161.34.42&port=443&secret=dd79e7010200010007f0030386e24c3add ⭐
 tg://proxy?server=87.107.163.58&port=2080&secret=7tmqtkUpsimaRttIzZjcbcJzcGVlZHRlc3QubmV0 ⭐
 tg://proxy?server=woyowoyo.ebdoradoq.info.&port=6600&secret=2I25nuNyHw_LQKT_Y7XNKA ⭐
