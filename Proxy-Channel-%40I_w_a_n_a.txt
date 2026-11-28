@@ -1,3 +1,6 @@
+tg://proxy?server=212.80.221.240&port=443&secret=ee66c46acf50d843a4772537c984987434636c6f7564666c6172652e636f6d ⭐
+tg://proxy?server=85.155.226.143&port=443&secret=eec661a4572d845976f8111ce1f90f3f56636c6f7564666c6172652e636f6d ⭐
+tg://proxy?server=206.245.166.130&port=443&secret=ee82bab956b0a1861c1801693e8da8cdbe636c6f7564666c6172652e636f6d ⭐
 tg://proxy?server=5.231.123.224&port=443&secret=eebac7aed3dca7932199836a45a68df0a5 ⭐
 tg://proxy?server=manager.iaubpanel.info&port=8443&secret=1603010200010001fc030386e24c3add ⭐
 tg://proxy?server=baroz.iaubpanel.info&port=8443&secret=1603010200010001fc030386e24c3add ⭐
