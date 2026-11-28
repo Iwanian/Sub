@@ -1,3 +1,4 @@
+tg://proxy?server=128.140.108.213&port=8443&secret=3TSAhBTkRFREQAQgxBRhyCQ%3D ⭐
 tg://proxy?server=91.99.179.131&port=8443&secret=YyEEgYdJXfrFmgMCIMJdjjRueWVrdGFuZXQA ⭐
 tg://proxy?server=cloudflare.again_to_fight.everyone.i_am.the_internet.mazhol.info.&port=443&secret=2I25nuNyHw_LQKT_Y7XNKA ⭐
 tg://proxy?server=85.133.194.6&port=2020&secret=AAAAAAAAAAAAAAAAAAAAAA%3D%3D ⭐
