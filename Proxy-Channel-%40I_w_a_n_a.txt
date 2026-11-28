@@ -1,3 +1,4 @@
+tg://proxy?server=bct6.bogod.ir&port=2096&secret=ee54bdd0f7280c08c84ba772f08fe24b687777772e616d617a6f6e2e636f6d ⭐
 tg://proxy?server=5.222.1.216&port=8443&secret=3RBEYoISSb16xRkTAiDCXQk= ⭐
 tg://proxy?server=212.80.221.240&port=443&secret=ee66c46acf50d843a4772537c984987434636c6f7564666c6172652e636f6d ⭐
 tg://proxy?server=85.155.226.143&port=443&secret=eec661a4572d845976f8111ce1f90f3f56636c6f7564666c6172652e636f6d ⭐
