@@ -1,3 +1,4 @@
+tg://proxy?server=5.231.123.224&port=443&secret=eebac7aed3dca7932199836a45a68df0a5 ⭐
 tg://proxy?server=manager.iaubpanel.info&port=8443&secret=1603010200010001fc030386e24c3add ⭐
 tg://proxy?server=baroz.iaubpanel.info&port=8443&secret=1603010200010001fc030386e24c3add ⭐
 tg://proxy?server=94.184.39.151&port=443&secret=ddf0eeb0bd9adc4fd4a93994ee3b2a216b ⭐
